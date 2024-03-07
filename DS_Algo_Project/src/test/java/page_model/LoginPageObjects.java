@@ -7,15 +7,33 @@ import stepdefinitions.Common_Step_Def;
 
 public class LoginPageObjects {
 
-	//Start of login page elements
+	private static LoginPageObjects loginPageObjects;
+
+	private LoginPageObjects() {};
+
+	public static LoginPageObjects getInstance() {
+
+		if(loginPageObjects==null) {
+			loginPageObjects= new LoginPageObjects();
+		}
+		return loginPageObjects;
+
+	}
 	
-	 By loginbtn             = By.xpath("//input[@value='Login']");
-	 By usernameTextbox      = By.xpath("//input[@name='username']");
-	 By passwordTextbox      = By.xpath("//input[@name='password']");
+    By signinLink 		= By.xpath("//a[text()='Sign in']"); 
 	
-	//End of login page elements
+    By loginbtn         = By.xpath("//input[@value='Login']");
+	By usernameTextbox  = By.xpath("//input[@name='username']");
+	By passwordTextbox  = By.xpath("//input[@name='password']");
 	
-	//actions: enterUsername, enter password, clickloginbutton
+	By errorMsg 		= By.xpath("//div[@class='alert alert-primary']");
+	By signoutbtn 		= By.xpath("//a[text()='Sign out']");
+	
+	
+	public void clickSignin() {
+		Common_Step_Def.driver.findElement(signinLink).click();
+	}
+	
 	public  void enterUsername () {
 		Common_Step_Def.driver.findElement(usernameTextbox).sendKeys(Constants.USERNAME);
 		
@@ -27,6 +45,23 @@ public class LoginPageObjects {
 	public  void clickLogin() {
 		Common_Step_Def.driver.findElement(loginbtn).click();
 		
+	}
+	public void clearUsername() {
+		Common_Step_Def.driver.findElement(usernameTextbox).clear();
+	}
+	public void clearPassword() {
+		Common_Step_Def.driver.findElement(passwordTextbox).clear();
+	}
+	public void invalidUsername() {
+		Common_Step_Def.driver.findElement(usernameTextbox).sendKeys("hello");
+	}
+	public void invalidPassword() {
+		Common_Step_Def.driver.findElement(passwordTextbox).sendKeys("hi123");
+	}
+	public String getAlert() {
+		return Common_Step_Def.driver.findElement(errorMsg).getText();
+
+
 	}
 	
 }

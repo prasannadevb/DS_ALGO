@@ -1,7 +1,5 @@
 package page_model;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,50 +10,31 @@ import utilities.Logger_Load;
 
 public class StartpagePageObjects {
 
-	private WebDriver driver;
-	// String URL = "https://dsportalapp.herokuapp.com";
-
-	By GetStartedBtn = By.xpath("//button[text()=‘Get Started’]");
-
-	boolean status = driver.findElement(GetStartedBtn).isDisplayed();
-	{
-		if (status) {
-			Logger_Load.info("Successfully logged in");
-		}
-
-	}
-
 	private static StartpagePageObjects startPageObjects;
 
-	private StartpagePageObjects() {
-	};
+	private StartpagePageObjects() {};
 
 	public static StartpagePageObjects getInstance() {
-		if (startPageObjects == null) {
-			startPageObjects = new StartpagePageObjects();
+
+		if(startPageObjects==null) {
+			startPageObjects= new StartpagePageObjects();
 		}
 		return startPageObjects;
 
 	}
+	By GetStartedBtn   = By.xpath("//button[text()='Get Started']");
+	By dsGetStartBtn   = By.xpath("//a[@href='data-structures-introduction']");
+	By alertMsg		   = By.xpath("//div[@class='alert alert-primary']");
 
-	
-	/*
-	 * String HomepageURL = "https://dsportalapp.herokuapp.com/home";
-	 * 
-	 * public StartpagePageObjects(WebDriver driver) {
-	 * 
-	 * this.driver=driver;
-	 * 
-	 * }
-	 */
-
-	public void algo_Startpage() {
-
-		// driver = new ChromeDriver();
-		// driver.get(URL);
-		// driver.manage().window().maximize();
-		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	public void algo_Startpage()  {
 		Common_Step_Def.driver.findElement(GetStartedBtn).click();
+	}
+	public void home_Startpage() {
+		Common_Step_Def.driver.findElement(dsGetStartBtn).click();
+	}
+	public String getAlert() {
+		return Common_Step_Def.driver.findElement(alertMsg).getText();
+
 
 	}
 }

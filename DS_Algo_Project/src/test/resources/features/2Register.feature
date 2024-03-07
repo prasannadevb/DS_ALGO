@@ -5,7 +5,7 @@ Feature: Registration process of the user
 		
 		
 		Scenario: This test is to verify the Registration page
-    Given the user is on the home page
+    Given given the user is on the home page
     When  the user clicks the register button
     Then  the user should see the registration page
     
@@ -46,14 +46,13 @@ Feature: Registration process of the user
     And user should able to see an password warning message "password_mismatch:the two password fields didn't match"
      
    Scenario Outline: The user tries to Register
-    
-    When user clicks register button after entering valid <username>,<password> and password confirmation related boxes
+    Given user is on the registration page 
+    When user clicks register button after entering valid "<username>","<password>" and password confirmation related boxes
     Then the user should be redirected to homepage of DSAlgo
   
     Examples: 
-      | username  | password | 
-      | quantum@testers |numpyninja1234| 
-      
+      | username        | password | 
+      | quantum@testers |numpyninja1234|
   
 
   

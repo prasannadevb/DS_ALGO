@@ -58,7 +58,7 @@ Feature: Testing the Array Page
     Given the user is on the Practice page 
     When  the user clicks search the array link
     Then  the user should be redirected to "https://dsportalapp.herokuapp.com/question/1"
-    
+   
   Scenario: Verify Practice Question 2 page has the question, code editor, run and submit buttons
     Given the user is on the Practice page 
     When  the user clicks max consecutive ones link
@@ -104,6 +104,11 @@ Feature: Testing the Array Page
 	When  the user clicks squares in sorted array
 	When the user clicks on the run button without entering any code
 	Then the user should see an alert contains "bad input on line 2"
-	When the user clicks on the submit button without entering any code
+	When the user clicks on the submit button without entering any code in squares of a sorted array
 	Then the user should see "No tests were collected" message
+	Then the user should be redirected to the homepage
+	And  the user should click the signout button
+	
+	
+	
  

@@ -6,12 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import constants.Constants;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import page_model.ArrayPageObjects;
 import page_model.HomePageObjects;
 import page_model.LoginPageObjects;
+import page_model.Sign_outPageObjects;
 
 public class Array {
 
@@ -233,6 +235,7 @@ public class Array {
 
 	@Then("the user should see {string} message")
 	public void the_user_should_see_message(String expected) throws InterruptedException {
+		Thread.sleep(2000);
 		String  actual =  ArrayPageObjects.getInstance().getOutput();
 		Assert.assertEquals(actual,expected);
 
@@ -244,15 +247,38 @@ public class Array {
 	}
 
 	@Then("the user should see an alert contains {string}")
-	public void the_user_should_see_an_alert_contains(String string) {
+	public void the_user_should_see_an_alert_contains(String string) throws InterruptedException {
+		
 		Alert alert = Common_Step_Def.driver.switchTo().alert();
 		String actualErrorMessage = alert.getText();
 		Assert.assertEquals(actualErrorMessage, "SyntaxError: bad input on line 2");
 		alert.accept();
 	}
 
+	@When("the user clicks on the submit button without entering any code in squares of a sorted array")
+	public void the_user_clicks_on_the_submit_button_without_entering_any_code_in_squares_of_a_sorted_array()throws InterruptedException {
+		ArrayPageObjects.getInstance().clickSubmitBtn();
+	}
 
-
-
-
-}
+	@Then("user should see a {string} message")
+	public void user_should_see_message(String expected) throws InterruptedException {
+		Thread.sleep(2000);
+		String  actual =  ArrayPageObjects.getInstance().getOutput();
+		Assert.assertEquals(expected,actual);
+    }
+	@Then("the user should be redirected to the homepage")
+	public void the_user_should_be_redirected_to_the_homepage() {
+        Common_Step_Def.driver.get(Constants.HOMEPAGE);
+	}
+	
+	@And("the user should click the signout button")
+	public void the_user_should_click_the_signout_button() {
+		Sign_outPageObjects.getInstance().clickSignoutBtn();
+	}
+	
+	@And("the user should see an alert message")
+	public void the_user_should_see_an_alert_message() {
+		Sign_outPageObjects.getInstance().getAlertmessage();
+	}
+	
+    }
