@@ -1,19 +1,18 @@
 package stepdefinitions;
 
+import java.io.IOException;
+
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 import constants.Constants;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import page_model.ArrayPageObjects;
 import page_model.HomePageObjects;
-import page_model.LoginPageObjects;
-import page_model.Sign_outPageObjects;
+import utilities.Common_Utils;
 
 public class Array {
 
@@ -271,14 +270,5 @@ public class Array {
         Common_Step_Def.driver.get(Constants.HOMEPAGE);
 	}
 	
-	@And("the user should click the signout button")
-	public void the_user_should_click_the_signout_button() {
-		Sign_outPageObjects.getInstance().clickSignoutBtn();
-	}
-	
-	@And("the user should see an alert message")
-	public void the_user_should_see_an_alert_message() {
-		Sign_outPageObjects.getInstance().getAlertmessage();
-	}
 	
     }

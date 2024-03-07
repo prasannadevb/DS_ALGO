@@ -20,6 +20,6 @@ public class Common_Step_Def {
 			  driver.manage().window().maximize();
 		}
 		
-				}
+	}
 }
 	

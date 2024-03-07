@@ -49,24 +49,23 @@ public class Common_Utils {
 				Constants.PRACTICEQUESTION3= properties.getProperty("PRACTICEQUESTION3_URL");
 				Constants.PRACTICEQUESTION4= properties.getProperty("PRACTICEQUESTION4_URL");
 
-
-
-
-
-			}
+}
 
 		} catch (Exception e) {
 			e.printStackTrace();
 
 		}
+		
 
 	}
 
+	
 
+	}
 
 	
 
-}
+
 
 
 

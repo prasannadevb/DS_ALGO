@@ -63,13 +63,11 @@ private static ArrayPageObjects arrayPageObjects;
 	   
 	    Common_Step_Def.driver.findElement(editorbox).sendKeys(validCode);
 		
-		Common_Step_Def.driver.findElement(runBtn).click();
-		
 	}
    
    public String getOutput() throws InterruptedException {
 		
-	    return Common_Step_Def.driver.findElement(console).getText();
+	    return Common_Step_Def.driver.findElement(console).getText().trim();
 	}
    public void clickArraysUsingList() throws InterruptedException {
 		
@@ -109,20 +107,6 @@ private static ArrayPageObjects arrayPageObjects;
 	}
   
    
-   public List<String> checkThePracticeQuestionsPresence() throws InterruptedException {
-		
-	String actual1 = Common_Step_Def.driver.findElement(search_the_Array).getText();
-	String actual2 = Common_Step_Def.driver.findElement(max_consecutive_Ones).getText();
-	String actual3 = Common_Step_Def.driver.findElement(find_Numbers).getText();
-	String actual4 = Common_Step_Def.driver.findElement(squares_sortedArray).getText();
-	
-	ArrayList<String>arrayList = new ArrayList<String>();
-	arrayList.add(actual1);
-	arrayList.add(actual2);
-	arrayList.add(actual3);
-	arrayList.add(actual4);
-	return arrayList;
-		
-	}
+   
 }
 

@@ -10,21 +10,23 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 @RunWith(Cucumber.class) 
 @CucumberOptions(
-	 features = {"src/test/resources/features"},
+		
+		features = {"src/test/resources/features"},
 		plugin = {"pretty", "html:target/result.html"},
-	    glue= {"stepdefinitions","page_model"})
-		
-		 //location of step definition files
-		
+		glue= {"stepdefinitions","page_model"}
+		)
+
+//location of step definition files
+
 public class Test_Runner extends AbstractTestNGCucumberTests {
-	
-	 @Override
-	 
-	 @DataProvider(parallel = false) public Object[][] scenarios() {
-	 
-	 return super.scenarios(); }
-	 
+
+	@Override
+
+	@DataProvider(parallel = false) public Object[][] scenarios() {
+
+		return super.scenarios(); }
+
 
 }
-					
+
 

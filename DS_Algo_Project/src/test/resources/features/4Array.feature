@@ -54,6 +54,7 @@ Feature: Testing the Array Page
     When  the user clicks on the Practice Questions link
     Then  the user should be redirected to practice page having links like "Search the array" ,"Max Consecutive Ones","Find Numbers with Even Number of Digits" and "Squares of a Sorted Array."
     
+    
   Scenario: Verify Practice Question 1 page has the question, code editor, run and submit buttons
     Given the user is on the Practice page 
     When  the user clicks search the array link
@@ -73,7 +74,8 @@ Feature: Testing the Array Page
     Given the user is on the Practice page 
     When  the user clicks squares of a sorted array
     Then  the user should be redirected to "https://dsportalapp.herokuapp.com/question/4"
-
+    
+@question1
  Scenario: verify submitting the practice question with no code in search the array link
 	Given the user is on the practice question page 
 	When  the user clicks search the array link
@@ -82,7 +84,21 @@ Feature: Testing the Array Page
 	Then the user should see an alert contains "bad input on line 2"
 	When  the user clicks on the submit button without entering any code
 	Then  the user should see "Error occurred during submission" message
+	Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
+	#When  the user gives a valid code
+	#And the user clicks the run button
+	#Then the user should see the output in console
+
 	
+	@question
  Scenario: verify submitting the practice question with no code in max consecutive ones
 	Given the user is on the practice question page
 	When  the user clicks max consecutive ones
@@ -90,7 +106,7 @@ Feature: Testing the Array Page
 	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code
 	Then the user should see "Error occurred during submission" message
-	
+	@question
  Scenario: verify running the practice question with no code in find numbers with even number of digits
 	Given the user is on the practice question page
 	When  the user clicks find numbers with even number of digits
@@ -99,6 +115,7 @@ Feature: Testing the Array Page
 	When the user clicks on the submit button without entering any code
 	Then the user should see "Error occurred during submission" message
 	
+	@question
 	Scenario: verify submitting the practice question with no code in squares of a sorted array
 	Given the user is on the practice question page
 	When  the user clicks squares in sorted array
@@ -107,8 +124,9 @@ Feature: Testing the Array Page
 	When the user clicks on the submit button without entering any code in squares of a sorted array
 	Then the user should see "No tests were collected" message
 	Then the user should be redirected to the homepage
-	And  the user should click the signout button
 	
+	
+
 	
 	
  
