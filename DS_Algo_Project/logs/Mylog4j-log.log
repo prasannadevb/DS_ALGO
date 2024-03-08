@@ -1857,3 +1857,80 @@
 [INFO ]2024-03-0719:29:57.474[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0719:29:57.516[main]utilities.Logger_Load1)-User is in login page
 [ERROR]2024-03-0719:29:58.266[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0720:29:40.880[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:29:41.027[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:29:41.187[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:29:41.188[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:29:41.577[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:29:41.603[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0720:29:41.760[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0720:29:42.558[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0720:29:42.602[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0720:29:43.061[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0720:29:43.093[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0720:29:43.710[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0720:35:19.321[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:35:19.448[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:35:19.578[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:35:19.579[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:35:19.855[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:35:19.875[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0720:35:19.964[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0720:35:20.500[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0720:35:20.528[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0720:35:20.877[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0720:35:20.906[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0720:35:21.495[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0720:39:58.499[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:39:58.630[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:39:58.764[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:39:58.765[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:39:59.025[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0720:39:59.047[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0720:39:59.149[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0720:39:59.683[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0720:39:59.711[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0720:40:00.067[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0720:40:00.088[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0720:40:00.582[main]utilities.Logger_Load1)-Invalid Username and Password
+[INFO ]2024-03-0722:11:53.117[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.124[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ]2024-03-0722:11:53.127[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.128[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.129[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.129[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.130[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.130[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.131[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.140[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+[INFO ]2024-03-0722:11:53.142[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-03-0722:11:53.142[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.143[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.143[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.144[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.144[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.146[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.147[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.147[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.148[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.148[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.149[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.149[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.149[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.154[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ]2024-03-0722:11:53.155[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.156[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.156[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.156[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0722:11:53.157[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0722:11:53.165[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\bindu\AppData\Local\Temp\testng-eclipse--253309751\testng-customsuite.xml
+
+[INFO ]2024-03-0722:11:53.185[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+[WARN ]2024-03-0722:11:53.291[main]org.testng.internal.Utils1)-The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ]2024-03-0722:11:53.405[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@24855019: 84 ms
+[INFO ]2024-03-0722:11:53.406[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@3abd581e: 1 ms
+[INFO ]2024-03-0722:11:53.418[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@6f6a7463: 12 ms
+[INFO ]2024-03-0722:11:53.424[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@a23a01d: 6 ms
+[INFO ]2024-03-0722:11:53.425[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4acf72b6: 0 ms
+[INFO ]2024-03-0722:11:53.425[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@7561db12: 0 ms

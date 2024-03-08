@@ -28,9 +28,14 @@ public class Array {
 	}
 
 	@When("the user clicks the get started button below the Array")
-	public void the_user_clicks_the_get_started_button_below_the_array() throws InterruptedException {
+	public void the_user_clicks_the_get_started_button_below_the_array()  {
 
-		HomePageObjects.getInstance().clickGetStarted();
+		try {
+			HomePageObjects.getInstance().clickGetStarted();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 
@@ -58,25 +63,24 @@ public class Array {
 	}
 
 	@When("the user clicks Arrays in Python link")
-	public void the_user_clicks_arrays_in_python_link() throws InterruptedException {
+	public void the_user_clicks_arrays_in_python_link()  {
 		ArrayPageObjects.getInstance().clickArraysinPythonBtn();
 	}
 
 	@Then("the user should be redirected to {string} page")
-	public void the_user_should_be_redirected_to_page(String expectedURL) throws InterruptedException {
-		Thread.sleep(2000);
+	public void the_user_should_be_redirected_to_page(String expectedURL)  {
+		
 		String actualURL =  Common_Step_Def.driver.getCurrentUrl();
 		Assert.assertEquals(actualURL,expectedURL);
 	}
 
 
 	@Given("the user is on the Arrays Using List Page")
-	public void the_user_is_on_the_arrays_using_list_page() throws InterruptedException {
-		Thread.sleep(2000);	
+	public void the_user_is_on_the_arrays_using_list_page() {
 		Common_Step_Def.driver.get(Constants.ARRAYSUSINGLIST);
 	}
 	@When("the user clicks Basic Operations in Lists Link")
-	public void the_user_clicks_basic_operations_in_lists_link() throws InterruptedException {
+	public void the_user_clicks_basic_operations_in_lists_link()  {
 		ArrayPageObjects.getInstance().clickBasicOperationsinLists();
 	}	
 
@@ -86,7 +90,7 @@ public class Array {
 	}
 
 	@When("the user clicks Applications of Array Link")
-	public void the_user_clicks_applications_of_array_link() throws InterruptedException {
+	public void the_user_clicks_applications_of_array_link() {
 		ArrayPageObjects.getInstance().clickApplicationsOfArray();
 
 	}
@@ -97,7 +101,7 @@ public class Array {
 	}
 
 	@When("the user clicks Arrays Using List link")
-	public void the_user_clicks_arrays_using_list_link() throws InterruptedException {
+	public void the_user_clicks_arrays_using_list_link() {
 		ArrayPageObjects.getInstance().clickArraysUsingList();
 	}
 
@@ -124,13 +128,13 @@ public class Array {
 	}
 
 	@When("the user writes an invalid code in Editor like {string}")
-	public void the_user_writes_an_invalid_code_in_editor_like(String invalidCode) throws InterruptedException {
+	public void the_user_writes_an_invalid_code_in_editor_like(String invalidCode) {
 		ArrayPageObjects.getInstance().enterCode(invalidCode);
 
 	}
 
 	@When("clicks the run button")
-	public void clicks_the_run_button() throws InterruptedException {
+	public void clicks_the_run_button()  {
 		ArrayPageObjects.getInstance().clickRunBtn();
 
 	}
@@ -147,27 +151,28 @@ public class Array {
 
 
 	@When("the user enters a valid code in Editor like {string}")
-	public void the_user_enters_a_valid_code_in_editor_like(String validCode) throws InterruptedException {
+	public void the_user_enters_a_valid_code_in_editor_like(String validCode) {
 		ArrayPageObjects.getInstance().enterValidCode(validCode);
-		Thread.sleep(2000);
+		
 	}
 
 	@Then("the user should able to see output in the console")
-	public void the_user_should_able_to_see_output_in_the_console() throws InterruptedException {
+	public void the_user_should_able_to_see_output_in_the_console()  {
 
-		String actualOutput = ArrayPageObjects.getInstance().getOutput();
+		String actualOutput = null;
+		actualOutput = ArrayPageObjects.getInstance().getOutput();
 		Assert.assertEquals(actualOutput, "bindu");
 
 
 	}
 
 	@Given("the user is on the Applications Of Array Page")
-	public void the_user_is_on_the_applications_of_array_page1() throws InterruptedException {
+	public void the_user_is_on_the_applications_of_array_page1() {
 		Common_Step_Def.driver.get(Constants.APPLICATIONSOFARRAY);
 
 	}
 	@When("the user clicks on the Practice Questions link")
-	public void the_user_clicks_on_the_practice_questions_link() throws InterruptedException {
+	public void the_user_clicks_on_the_practice_questions_link() {
 		ArrayPageObjects.getInstance().clickPracticeQuestions();
 	}
 
@@ -182,16 +187,16 @@ public class Array {
 	}
 
 	@When("the user clicks search the array link")
-	public void the_user_clicks_search_the_array_link() throws InterruptedException {
+	public void the_user_clicks_search_the_array_link() {
 		ArrayPageObjects.getInstance().clicksearchTheArray();
 	}
 	@Then("the user should be directed to search the array question page")
-	public void the_user_should_be_directed_to_search_the_array_question_page() throws InterruptedException {
+	public void the_user_should_be_directed_to_search_the_array_question_page() {
 		Common_Step_Def.driver.get(Constants.PRACTICEQUESTION1);
 	}
 
 	@When("the user clicks max consecutive ones link")
-	public void the_user_clicks_max_consecutive_ones_link() throws InterruptedException {
+	public void the_user_clicks_max_consecutive_ones_link() {
 		ArrayPageObjects.getInstance().clickmaxConsecutiveOnes();
 	}
 
@@ -201,12 +206,12 @@ public class Array {
 	}
 
 	@When("the user clicks find numbers with even number of digits link")
-	public void the_user_clicks_find_numbers_with_even_number_of_digits_link() throws InterruptedException {
+	public void the_user_clicks_find_numbers_with_even_number_of_digits_link() {
 		ArrayPageObjects.getInstance().clickfindNumbers();
 	}
 
 	@When("the user clicks squares of a sorted array")
-	public void the_user_clicks_squares_of_a_sorted_array() throws InterruptedException {
+	public void the_user_clicks_squares_of_a_sorted_array() {
 		ArrayPageObjects.getInstance().clicksquaresOfSortedArray();
 	}
 
@@ -217,38 +222,50 @@ public class Array {
 	}
 
 	@When("the user clicks max consecutive ones")
-	public void the_user_clicks_max_consecutive_ones() throws InterruptedException {
+	public void the_user_clicks_max_consecutive_ones() {
 		ArrayPageObjects.getInstance().clickmaxConsecutiveOnes();
 	} 
 
 	@When("the user clicks find numbers with even number of digits")
-	public void the_user_clicks_find_numbers_with_even_number_of_digits() throws InterruptedException {
+	public void the_user_clicks_find_numbers_with_even_number_of_digits() {
 		ArrayPageObjects.getInstance().clickfindNumbers();
 	}
 	@When("the user clicks squares in sorted array")
-	public void the_user_clicks_squares_in_sorted_array() throws InterruptedException {
+	public void the_user_clicks_squares_in_sorted_array() {
 		ArrayPageObjects.getInstance().clicksquaresOfSortedArray();
 	}
 	@When("the user clicks on the submit button without entering any code")
-	public void the_user_clicks_on_the_submit_button_without_entering_any_code() throws InterruptedException {
+	public void the_user_clicks_on_the_submit_button_without_entering_any_code() {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		ArrayPageObjects.getInstance().clickSubmitBtn();
 	}
 
 	@Then("the user should see {string} message")
-	public void the_user_should_see_message(String expected) throws InterruptedException {
-		Thread.sleep(2000);
-		String  actual =  ArrayPageObjects.getInstance().getOutput();
+	public void the_user_should_see_message(String expected) {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		String actual = null;
+		actual = ArrayPageObjects.getInstance().getOutput();
 		Assert.assertEquals(actual,expected);
 
 	}
 
 	@When("the user clicks on the run button without entering any code")
-	public void the_user_clicks_on_the_run_button_without_entering_any_code() throws InterruptedException {
+	public void the_user_clicks_on_the_run_button_without_entering_any_code() {
 		ArrayPageObjects.getInstance().clickRunBtn();
 	}
 
 	@Then("the user should see an alert contains {string}")
-	public void the_user_should_see_an_alert_contains(String string) throws InterruptedException {
+	public void the_user_should_see_an_alert_contains(String string) {
 
 		Alert alert = Common_Step_Def.driver.switchTo().alert();
 		String actualErrorMessage = alert.getText();
@@ -262,9 +279,10 @@ public class Array {
 	}
 
 	@Then("user should see a {string} message")
-	public void user_should_see_message(String expected) throws InterruptedException {
-		Thread.sleep(2000);
-		String  actual =  ArrayPageObjects.getInstance().getOutput();
+	public void user_should_see_message(String expected)  {
+		
+		String actual = null;
+		actual = ArrayPageObjects.getInstance().getOutput();
 		Assert.assertEquals(expected,actual);
 	}
 	@Then("the user should be redirected to the homepage")
@@ -278,16 +296,11 @@ public class Array {
 		JavascriptExecutor js = null;
 		try {
 			Common_Utils.readExcelFile("Data.xlsx");
-		try {
-			if (Common_Step_Def.driver instanceof JavascriptExecutor) {
-			    js = (JavascriptExecutor) Common_Step_Def.driver;
-			}
-			js.executeScript("return document.getElementsByClassName('CodeMirror-line')[0].remove();");
-			ArrayPageObjects.getInstance().enterValidCode(Common_Utils.questionsList.get(1));
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}	
+		if (Common_Step_Def.driver instanceof JavascriptExecutor) {
+		    js = (JavascriptExecutor) Common_Step_Def.driver;
+		}
+		js.executeScript("return document.getElementsByClassName('CodeMirror-line')[0].remove();");
+		ArrayPageObjects.getInstance().enterValidCode(Common_Utils.questionsList.get(1));	
 			
 		} catch (InvalidFormatException e) {
 
@@ -301,24 +314,13 @@ public class Array {
 	@And ("the user clicks the run button")
 	public void the_user_clicks_the_run_button() {
 		
-	try {
-		ArrayPageObjects.getInstance().clickRunBtn();
-	} catch (InterruptedException e) {
-		
-		e.printStackTrace();
-	}
+	ArrayPageObjects.getInstance().clickRunBtn();
 		
 	}
 	
 	@Then ("the user should see the output in console")
-	public void the_user_should_see_the_output_in_console() {
-		try {
+	public void the_user_should_see_the_output_in_console()  {
 		String output =	ArrayPageObjects.getInstance().getOutput();
 		Assert.assertNotNull(output);
-			
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 	}
 }

@@ -40,68 +40,68 @@ private static ArrayPageObjects arrayPageObjects;
 	By squares_sortedArray  = By.xpath("//a[contains(text(),'Squares of  a Sorted Array')]");
 	
 	
-	public void clickArraysinPythonBtn() throws InterruptedException {
+	public void clickArraysinPythonBtn()  {
 		
 		Common_Step_Def.driver.findElement(arraysinpythonBtn).click();
 	}
 	
-   public void clickTryhere() throws InterruptedException {
+   public void clickTryhere()  {
 		
 		Common_Step_Def.driver.findElement(tryhereBtn).click();
 	}
-   public void enterCode(String code) throws InterruptedException {
+   public void enterCode(String code)  {
 		System.out.println("inside invalid error code");
 		Common_Step_Def.driver.findElement(editorbox).sendKeys(code);
 		System.out.println("after sleep");
 	}
-   public void clickRunBtn() throws InterruptedException {
+   public void clickRunBtn()  {
 		
 		Common_Step_Def.driver.findElement(runBtn).click();
 		
 	}
-   public void enterValidCode(String validCode) throws InterruptedException {
+   public void enterValidCode(String validCode) {
 	   
 	    Common_Step_Def.driver.findElement(editorbox).sendKeys(validCode);
 		
 	}
    
-   public String getOutput() throws InterruptedException {
+   public String getOutput()  {
 		
 	    return Common_Step_Def.driver.findElement(console).getText().trim();
 	}
-   public void clickArraysUsingList() throws InterruptedException {
+   public void clickArraysUsingList()  {
 		
 		Common_Step_Def.driver.findElement(arraysusinglist).click();
 	}
-   public void clickBasicOperationsinLists() throws InterruptedException {
+   public void clickBasicOperationsinLists()  {
 		
 		Common_Step_Def.driver.findElement(basic_link).click();
 	}
-   public void clickApplicationsOfArray() throws InterruptedException {
+   public void clickApplicationsOfArray()  {
 		
 		Common_Step_Def.driver.findElement(applications_array).click();
 	}
-   public void clickPracticeQuestions() throws InterruptedException {
+   public void clickPracticeQuestions()  {
 		
 		Common_Step_Def.driver.findElement(practice_questions).click();
 	}
-   public void clicksearchTheArray() throws InterruptedException {
+   public void clicksearchTheArray()  {
 		
 		Common_Step_Def.driver.findElement(search_the_Array).click();
 	}
-   public void clickmaxConsecutiveOnes() throws InterruptedException {
+   public void clickmaxConsecutiveOnes()  {
 		
 		Common_Step_Def.driver.findElement(max_consecutive_Ones).click();
 	}
-   public void clickfindNumbers() throws InterruptedException {
+   public void clickfindNumbers()  {
 		
 		Common_Step_Def.driver.findElement(find_Numbers).click();
 	}
-   public void clicksquaresOfSortedArray() throws InterruptedException {
+   public void clicksquaresOfSortedArray()  {
 		
 		Common_Step_Def.driver.findElement(squares_sortedArray).click();
 	}
-   public void clickSubmitBtn() throws InterruptedException {
+   public void clickSubmitBtn()  {
 		
 		Common_Step_Def.driver.findElement(submitBtn).click();
 	}
