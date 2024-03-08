@@ -6,6 +6,7 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
 import io.cucumber.java.BeforeAll;
 import utilities.Common_Utils;
@@ -22,6 +23,11 @@ public class Common_Step_Def {
 			  driver.manage().window().maximize();
 			  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		}
+		
+	}
+	@AfterAll
+	public static void quitBrowser() {
+		driver.quit();
 		
 	}
 }

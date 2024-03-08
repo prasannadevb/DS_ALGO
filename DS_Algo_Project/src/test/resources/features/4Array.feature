@@ -85,15 +85,7 @@ Feature: Testing the Array Page
 	When  the user clicks on the submit button without entering any code
 	Then  the user should see "Error occurred during submission" message
 	
-@question1
-Scenario: verify submitting the practice question with valid code in search the array link
-  Given the user is on the practice question page 
-	When  the user clicks search the array link
-	Then  the user should be directed to search the array question page
-	When  the user gives a valid code
-	Then the user should see the output in console
-	
-	@question
+ @question
  Scenario: verify submitting the practice question with no code in max consecutive ones
 	Given the user is on the practice question page
 	When  the user clicks max consecutive ones
@@ -101,6 +93,7 @@ Scenario: verify submitting the practice question with valid code in search the 
 	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code
 	Then the user should see "Error occurred during submission" message
+	
 	@question
  Scenario: verify running the practice question with no code in find numbers with even number of digits
 	Given the user is on the practice question page
@@ -119,6 +112,14 @@ Scenario: verify submitting the practice question with valid code in search the 
 	When the user clicks on the submit button without entering any code in squares of a sorted array
 	Then the user should see "No tests were collected" message
 	Then the user should be redirected to the homepage
+	
+	@question1
+  Scenario: verify submitting the practice question with valid code in search the array link
+  Given the user is on the practice question page 
+	When  the user clicks search the array link
+	Then  the user should be directed to search the array question page
+	When  the user gives a valid code
+	Then the user should see the output in console
 	
 	
 

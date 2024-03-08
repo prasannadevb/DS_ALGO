@@ -12,7 +12,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		
 		features = {"src/test/resources/features"},
-		plugin = {"pretty", "html:target/result.html"},
+		plugin = {"pretty", "html:target/result.html",
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		glue= {"stepdefinitions","page_model"}
 		)
 
