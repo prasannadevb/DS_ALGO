@@ -1994,3 +1994,56 @@
 [INFO ]2024-03-0810:35:21.232[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0810:35:21.263[main]utilities.Logger_Load1)-User is in login page
 [ERROR]2024-03-0810:35:21.935[main]utilities.Logger_Load1)-Invalid Username and Password
+[INFO ]2024-03-0810:45:25.885[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.901[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+[INFO ]2024-03-0810:45:25.906[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.907[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.908[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.909[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.910[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.910[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.912[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.926[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+[INFO ]2024-03-0810:45:25.928[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.929[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.930[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.931[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.932[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.932[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.935[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.936[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.936[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.938[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.940[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.940[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.941[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.941[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.948[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+[INFO ]2024-03-0810:45:25.949[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.951[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.952[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.952[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-03-0810:45:25.952[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-03-0810:45:25.964[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\bindu\AppData\Local\Temp\testng-eclipse-645377348\testng-customsuite.xml
+
+[INFO ]2024-03-0810:45:25.998[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+[WARN ]2024-03-0810:45:26.180[main]org.testng.internal.Utils1)-The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ]2024-03-0810:45:26.341[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@1a38ba58: 114 ms
+[INFO ]2024-03-0810:45:26.343[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@3ad394e6: 0 ms
+[INFO ]2024-03-0810:45:26.356[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@3a45c42a: 13 ms
+[INFO ]2024-03-0810:45:26.363[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@10ad20cb: 7 ms
+[INFO ]2024-03-0810:45:26.363[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7dd712e8: 0 ms
+[INFO ]2024-03-0810:45:26.364[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@2c282004: 0 ms
+[ERROR]2024-03-0810:46:02.425[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:46:02.570[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:46:02.731[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:46:02.732[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:46:03.095[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:46:03.122[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0810:46:03.253[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0810:46:04.110[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0810:46:04.160[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0810:46:04.695[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0810:46:04.730[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0810:46:05.390[main]utilities.Logger_Load1)-Invalid Username and Password
