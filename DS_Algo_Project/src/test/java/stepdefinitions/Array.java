@@ -5,8 +5,10 @@ import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.JavascriptExecutor;
 
 import constants.Constants;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -207,7 +209,7 @@ public class Array {
 	public void the_user_clicks_squares_of_a_sorted_array() throws InterruptedException {
 		ArrayPageObjects.getInstance().clicksquaresOfSortedArray();
 	}
-	
+
 
 	@Given("the user is on the practice question page")
 	public void the_user_is_on_the_practice_question_page() {
@@ -247,7 +249,7 @@ public class Array {
 
 	@Then("the user should see an alert contains {string}")
 	public void the_user_should_see_an_alert_contains(String string) throws InterruptedException {
-		
+
 		Alert alert = Common_Step_Def.driver.switchTo().alert();
 		String actualErrorMessage = alert.getText();
 		Assert.assertEquals(actualErrorMessage, "SyntaxError: bad input on line 2");
@@ -264,11 +266,59 @@ public class Array {
 		Thread.sleep(2000);
 		String  actual =  ArrayPageObjects.getInstance().getOutput();
 		Assert.assertEquals(expected,actual);
-    }
+	}
 	@Then("the user should be redirected to the homepage")
 	public void the_user_should_be_redirected_to_the_homepage() {
-        Common_Step_Def.driver.get(Constants.HOMEPAGE);
+		Common_Step_Def.driver.get(Constants.HOMEPAGE);
+	}
+
+
+	@When ("the user gives a valid code")
+	public void the_user_gives_a_valid_code() {
+		JavascriptExecutor js = null;
+		try {
+			Common_Utils.readExcelFile("Data.xlsx");
+		try {
+			if (Common_Step_Def.driver instanceof JavascriptExecutor) {
+			    js = (JavascriptExecutor) Common_Step_Def.driver;
+			}
+			js.executeScript("return document.getElementsByClassName('CodeMirror-line')[0].remove();");
+			ArrayPageObjects.getInstance().enterValidCode(Common_Utils.questionsList.get(1));
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}	
+			
+		} catch (InvalidFormatException e) {
+
+			e.printStackTrace();
+		} catch (IOException e) {
+
+			e.printStackTrace();
+		}
 	}
 	
+	@And ("the user clicks the run button")
+	public void the_user_clicks_the_run_button() {
+		
+	try {
+		ArrayPageObjects.getInstance().clickRunBtn();
+	} catch (InterruptedException e) {
+		
+		e.printStackTrace();
+	}
+		
+	}
 	
-    }
+	@Then ("the user should see the output in console")
+	public void the_user_should_see_the_output_in_console() {
+		try {
+		String output =	ArrayPageObjects.getInstance().getOutput();
+		Assert.assertNotNull(output);
+			
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}
