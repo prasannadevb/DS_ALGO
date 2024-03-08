@@ -247,15 +247,18 @@ public class Array {
 
 	@Then("the user should see {string} message")
 	public void the_user_should_see_message(String expected) {
+		
 		try {
 			Thread.sleep(1000);
+			String actual = null;
+			actual = ArrayPageObjects.getInstance().getOutput();
+			Assert.assertEquals(actual,expected);
+			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String actual = null;
-		actual = ArrayPageObjects.getInstance().getOutput();
-		Assert.assertEquals(actual,expected);
+		
 
 	}
 

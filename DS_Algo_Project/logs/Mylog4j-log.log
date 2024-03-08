@@ -1934,3 +1934,15 @@
 [INFO ]2024-03-0722:11:53.424[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@a23a01d: 6 ms
 [INFO ]2024-03-0722:11:53.425[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4acf72b6: 0 ms
 [INFO ]2024-03-0722:11:53.425[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@7561db12: 0 ms
+[ERROR]2024-03-0722:42:25.881[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0722:42:26.006[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0722:42:26.142[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0722:42:26.142[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0722:42:26.482[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0722:42:26.510[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0722:42:26.617[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0722:42:27.372[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0722:42:27.405[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0722:42:28.111[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0722:42:28.150[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0722:42:28.815[main]utilities.Logger_Load1)-Invalid Username and Password
