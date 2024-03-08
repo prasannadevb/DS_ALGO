@@ -1946,3 +1946,51 @@
 [INFO ]2024-03-0722:42:28.111[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0722:42:28.150[main]utilities.Logger_Load1)-User is in login page
 [ERROR]2024-03-0722:42:28.815[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0808:02:29.359[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:02:29.549[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:02:29.829[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:02:29.833[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:02:30.257[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:02:30.290[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0808:02:30.466[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0808:02:31.675[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0808:02:31.731[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0808:02:32.401[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0808:02:32.486[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0808:02:33.498[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0808:14:33.950[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:14:34.048[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:14:34.151[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:14:34.152[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:14:34.422[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:14:34.444[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0808:14:34.529[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0808:14:35.179[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0808:14:35.213[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0808:14:35.544[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0808:14:35.591[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0808:14:36.190[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0808:17:11.182[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:17:11.269[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:17:11.365[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:17:11.366[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:17:11.624[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0808:17:11.644[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0808:17:11.767[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0808:17:12.421[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0808:17:12.462[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0808:17:12.793[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0808:17:12.843[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0808:17:13.409[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0810:35:19.041[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:35:19.184[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:35:19.328[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:35:19.330[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:35:19.704[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0810:35:19.737[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0810:35:19.892[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0810:35:20.683[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0810:35:20.729[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0810:35:21.232[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0810:35:21.263[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0810:35:21.935[main]utilities.Logger_Load1)-Invalid Username and Password

@@ -1,11 +1,16 @@
 package stepdefinitions;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.junit.Assert;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import constants.Constants;
 import io.cucumber.java.en.And;
@@ -236,28 +241,22 @@ public class Array {
 	}
 	@When("the user clicks on the submit button without entering any code")
 	public void the_user_clicks_on_the_submit_button_without_entering_any_code() {
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		ArrayPageObjects.getInstance().clickSubmitBtn();
+		
 	}
 
 	@Then("the user should see {string} message")
 	public void the_user_should_see_message(String expected) {
-		
 		try {
 			Thread.sleep(1000);
 			String actual = null;
 			actual = ArrayPageObjects.getInstance().getOutput();
 			Assert.assertEquals(actual,expected);
-			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		
 
 	}
