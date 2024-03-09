@@ -17,11 +17,23 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import constants.Constants;
+import page_model.ArrayPageObjects;
 
 
 
 public class Common_Utils {
 
+	private static Common_Utils commonUtils;
+
+	private Common_Utils() {};
+
+	public static Common_Utils getInstance() {
+		if(commonUtils==null) {
+			commonUtils= new Common_Utils();
+		}
+		return commonUtils;
+
+	}
 
 	private static Common_Utils Common_UtilsInstance= null;
 	public static List<String> questionsList=new ArrayList<String>();
@@ -63,12 +75,12 @@ public class Common_Utils {
 
 
 	}
-	
+
 	public static void readExcelFile(String file) throws InvalidFormatException, IOException {
 
-		
 
-        //Excel file location
+
+		//Excel file location
 		File excelFile= new File(file);
 		//creating obj for the workbook		
 		XSSFWorkbook workbook= new XSSFWorkbook(excelFile);

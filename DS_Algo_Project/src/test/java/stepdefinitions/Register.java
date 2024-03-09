@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
+import app_hooks.App_Hooks;
 import constants.Constants;
 import io.cucumber.java.en.Given;
 
@@ -16,7 +17,7 @@ import utilities.Logger_Load;
 public class Register {
 	@Given("given the user is on the home page")
 	public void given_ther_user_is_on_the_home_page() {
-	   Common_Step_Def.driver.get(Constants.HOMEPAGE);
+	   App_Hooks.getInstance().getDriver().get(Constants.HOMEPAGE);
 	}
 
 	@When("the user clicks the register button")
@@ -27,7 +28,7 @@ public class Register {
 
 	@Then("the user should see the registration page")
 	public void the_user_should_see_the_registration_page() {
-	   String currentURL =Common_Step_Def.driver.getCurrentUrl();
+	   String currentURL =App_Hooks.getInstance().getDriver().getCurrentUrl();
 	   String expectedURL = "https://dsportalapp.herokuapp.com/register";
 	   Assert.assertEquals(currentURL, expectedURL);
 	   System.out.println("User is on the registration page");
@@ -45,7 +46,7 @@ public class Register {
 
 	@Then("the error {string} appears below user name text box")
 	public void the_error_appears_below_user_name_text_box(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = App_Hooks.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	}
@@ -58,7 +59,7 @@ public class Register {
 
 	@Then("the error {string} appears below password  text box")
 	public void the_error_appears_below_password_text_box(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = App_Hooks.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	    
@@ -77,7 +78,7 @@ public class Register {
 
 	@Then("the error {string} appears below password confirmation text box")
 	public void the_error_appears_below_password_confirmation_text_box(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = App_Hooks.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	}
@@ -99,7 +100,7 @@ public class Register {
 	public void user_redirected_to_empty_password_textbox() {
 	   
 	}
-
+	
 	@When("user clicks register button after entering password with numeric data")
 	public void user_clicks_register_button_after_entering_password_with_numeric_data() {
 		RegisterPageObjects.getInstance().invalidPassword();
@@ -111,7 +112,7 @@ public class Register {
 		Logger_Load.error("No error message");
 	}
 
-	@Then("user redirected to empty password confirmationÂ textbox")
+	@Then("user redirected to empty password confirmation textbox")
 	public void user_redirected_to_empty_password_confirmation_textbox() {
 	    
 	}
@@ -155,7 +156,7 @@ public class Register {
 
 	@Then("the user should be redirected to homepage of DSAlgo")
 	public void the_user_should_be_redirected_to_homepage_of_ds_algo() {
-	    System.out.println("User redirected to dsALgoHomeÂ page");
+	    System.out.println("User redirected to dsALgoHome page");
 	}
 
 

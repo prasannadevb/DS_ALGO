@@ -1,34 +1,35 @@
 package stepdefinitions;
 
-
-import java.time.Duration;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-
-import io.cucumber.java.AfterAll;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
-import utilities.Common_Utils;
+import app_hooks.App_Hooks;
+import constants.Constants;
+import page_model.LoginPageObjects;
 
 public class Common_Step_Def {
 	
-	public static WebDriver driver;
-	@BeforeAll
-	public static void launchBrowser() {
-		Common_Utils common_Utils = new Common_Utils();
-		common_Utils.loadProperties();
-		if(driver==null) {
-			  driver= new ChromeDriver(); 
-			  driver.manage().window().maximize();
-			  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	private static Common_Step_Def common_Step_Def;
+	
+	public static Common_Step_Def getInstance() {
+		if(common_Step_Def==null) {
+			common_Step_Def= new Common_Step_Def();
 		}
+		return common_Step_Def;
+
+	}
+	
+	public void login() {
+		App_Hooks.getInstance().getDriver().get(Constants.LOGINPAGE);
+		LoginPageObjects.getInstance().enterUsername();
+		LoginPageObjects.getInstance().enterPassword();
 		
 	}
-	@AfterAll
-	public static void quitBrowser() {
-		driver.quit();
+	
+	public void logout() {
+		
+		
 		
 	}
+	
+	
+	
 }
 	

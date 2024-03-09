@@ -2,6 +2,7 @@ package page_model;
 
 import org.openqa.selenium.By;
 
+import app_hooks.App_Hooks;
 import stepdefinitions.Common_Step_Def;
 
 public class Sign_outPageObjects {
@@ -22,11 +23,11 @@ public class Sign_outPageObjects {
 	By alertMessage = By.xpath("//div[contains(text(),'Logged out successfully')]");
 	
 	public void clickSignoutBtn () {
-		Common_Step_Def.driver.findElement(signoutBtn).click();
+		App_Hooks.getInstance().getDriver().findElement(signoutBtn).click();
 	}
 	
 	public String getAlertmessage() {
-	return	Common_Step_Def.driver.findElement(alertMessage).getText();
+	return	App_Hooks.getInstance().getDriver().findElement(alertMessage).getText();
 	}
 	
 }

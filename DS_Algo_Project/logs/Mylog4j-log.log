@@ -1402,7 +1402,7 @@
 [ERROR]2024-03-0622:50:07.292[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0622:50:07.293[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0622:50:07.741[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0622:50:07.789[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0622:50:07.789[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0622:50:08.408[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0622:50:08.460[main]utilities.Logger_Load1)-User is in login page
 [INFO ]2024-03-0622:50:09.118[main]utilities.Logger_Load1)-User is on the signin page
@@ -1413,7 +1413,7 @@
 [ERROR]2024-03-0622:53:29.765[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0622:53:29.766[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0622:53:30.233[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0622:53:30.264[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0622:53:30.264[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0622:53:30.402[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0622:53:31.278[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0622:53:31.318[main]utilities.Logger_Load1)-User is in login page
@@ -1425,7 +1425,7 @@
 [ERROR]2024-03-0623:34:52.300[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:34:52.301[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:34:52.577[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0623:34:52.598[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0623:34:52.598[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0623:34:52.688[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0623:34:53.368[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0623:34:53.450[main]utilities.Logger_Load1)-User is in login page
@@ -1437,7 +1437,7 @@
 [ERROR]2024-03-0623:46:15.613[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:46:15.614[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:46:16.023[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0623:46:16.059[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0623:46:16.059[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0623:46:16.187[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0623:46:16.989[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0623:46:17.036[main]utilities.Logger_Load1)-User is in login page
@@ -1449,7 +1449,7 @@
 [ERROR]2024-03-0623:50:51.309[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:50:51.309[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:50:51.591[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0623:50:51.616[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0623:50:51.616[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0623:50:51.721[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0623:50:52.303[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0623:50:52.334[main]utilities.Logger_Load1)-User is in login page
@@ -1461,7 +1461,7 @@
 [ERROR]2024-03-0623:55:53.351[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:55:53.352[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0623:55:53.799[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0623:55:53.838[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0623:55:53.838[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0623:55:53.980[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0623:55:54.804[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0623:55:54.858[main]utilities.Logger_Load1)-User is in login page
@@ -1473,7 +1473,7 @@
 [ERROR]2024-03-0700:26:14.836[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:26:14.836[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:26:15.083[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0700:26:15.101[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0700:26:15.101[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0700:26:15.180[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0700:26:15.679[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0700:26:15.708[main]utilities.Logger_Load1)-User is in login page
@@ -1485,7 +1485,7 @@
 [ERROR]2024-03-0700:28:37.019[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:28:37.020[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:28:37.281[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0700:28:37.301[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0700:28:37.301[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0700:28:37.393[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0700:28:37.882[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0700:28:37.909[main]utilities.Logger_Load1)-User is in login page
@@ -1497,7 +1497,7 @@
 [ERROR]2024-03-0700:30:34.693[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:30:34.693[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:30:34.955[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0700:30:34.979[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0700:30:34.979[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0700:30:35.091[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0700:30:35.615[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0700:30:35.642[main]utilities.Logger_Load1)-User is in login page
@@ -1509,7 +1509,7 @@
 [ERROR]2024-03-0700:32:43.928[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:32:43.929[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:32:44.234[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0700:32:44.253[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0700:32:44.253[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0700:32:44.356[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0700:32:44.899[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0700:32:44.928[main]utilities.Logger_Load1)-User is in login page
@@ -1521,7 +1521,7 @@
 [ERROR]2024-03-0700:33:53.207[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:33:53.208[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:33:53.493[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0700:33:53.514[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0700:33:53.514[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0700:33:53.611[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0700:33:54.169[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0700:33:54.204[main]utilities.Logger_Load1)-User is in login page
@@ -1533,7 +1533,7 @@
 [ERROR]2024-03-0700:43:29.307[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:43:29.308[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0700:43:29.565[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0700:43:29.585[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0700:43:29.585[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0700:43:29.668[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0700:43:30.224[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0700:43:30.251[main]utilities.Logger_Load1)-User is in login page
@@ -1545,7 +1545,7 @@
 [ERROR]2024-03-0701:17:08.263[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0701:17:08.264[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0701:17:08.608[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0701:17:08.634[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0701:17:08.634[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0701:17:08.750[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0701:17:09.453[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0701:17:09.499[main]utilities.Logger_Load1)-User is in login page
@@ -1557,7 +1557,7 @@
 [ERROR]2024-03-0701:50:22.715[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0701:50:22.717[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0701:50:23.068[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0701:50:23.095[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0701:50:23.095[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0701:50:23.232[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0701:50:24.018[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0701:50:24.057[main]utilities.Logger_Load1)-User is in login page
@@ -1569,7 +1569,7 @@
 [ERROR]2024-03-0701:59:47.398[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0701:59:47.399[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0701:59:47.742[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0701:59:47.765[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0701:59:47.765[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0701:59:47.881[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0701:59:48.576[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0701:59:48.632[main]utilities.Logger_Load1)-User is in login page
@@ -1581,7 +1581,7 @@
 [ERROR]2024-03-0702:03:23.184[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:03:23.188[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:03:23.664[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0702:03:23.743[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0702:03:23.743[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0702:03:24.046[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0702:03:25.187[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0702:03:25.232[main]utilities.Logger_Load1)-User is in login page
@@ -1593,7 +1593,7 @@
 [ERROR]2024-03-0702:12:33.258[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:12:33.260[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:12:33.617[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0702:12:33.643[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0702:12:33.643[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0702:12:33.765[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0702:12:34.469[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0702:12:34.505[main]utilities.Logger_Load1)-User is in login page
@@ -1605,7 +1605,7 @@
 [ERROR]2024-03-0702:15:14.903[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:15:14.905[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:15:15.562[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0702:15:15.594[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0702:15:15.594[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0702:15:15.784[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0702:15:16.957[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0702:15:17.007[main]utilities.Logger_Load1)-User is in login page
@@ -1617,7 +1617,7 @@
 [ERROR]2024-03-0702:18:21.002[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:18:21.004[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:18:21.421[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0702:18:21.474[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0702:18:21.474[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0702:18:21.882[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0702:18:22.875[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0702:18:22.934[main]utilities.Logger_Load1)-User is in login page
@@ -1629,7 +1629,7 @@
 [ERROR]2024-03-0702:31:01.749[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:31:01.751[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:31:02.173[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0702:31:02.215[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0702:31:02.215[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0702:31:02.358[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0702:31:03.412[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0702:31:03.461[main]utilities.Logger_Load1)-User is in login page
@@ -1641,7 +1641,7 @@
 [ERROR]2024-03-0702:35:07.466[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:35:07.466[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0702:35:07.817[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0702:35:07.846[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0702:35:07.846[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0702:35:07.955[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0702:35:08.670[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0702:35:08.709[main]utilities.Logger_Load1)-User is in login page
@@ -1653,7 +1653,7 @@
 [ERROR]2024-03-0708:33:19.908[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0708:33:19.909[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0708:33:20.398[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0708:33:20.427[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0708:33:20.427[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0708:33:20.561[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0708:33:21.372[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0708:33:21.419[main]utilities.Logger_Load1)-User is in login page
@@ -1665,7 +1665,7 @@
 [ERROR]2024-03-0708:45:57.708[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0708:45:57.709[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0708:45:58.208[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0708:45:58.232[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0708:45:58.232[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0708:45:58.409[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0708:45:59.202[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0708:45:59.243[main]utilities.Logger_Load1)-User is in login page
@@ -1677,7 +1677,7 @@
 [ERROR]2024-03-0711:24:20.298[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0711:24:20.298[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0711:24:20.583[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0711:24:20.604[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0711:24:20.604[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0711:24:20.698[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0711:24:21.273[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0711:24:21.302[main]utilities.Logger_Load1)-User is in login page
@@ -1730,7 +1730,7 @@
 [ERROR]2024-03-0711:40:46.319[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0711:40:46.320[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0711:40:46.615[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0711:40:46.634[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0711:40:46.634[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0711:40:46.723[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0711:40:47.385[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0711:40:47.419[main]utilities.Logger_Load1)-User is in login page
@@ -1742,7 +1742,7 @@
 [ERROR]2024-03-0711:44:27.475[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0711:44:27.476[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0711:44:27.954[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0711:44:27.980[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0711:44:27.980[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0711:44:28.083[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0711:44:28.734[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0711:44:28.767[main]utilities.Logger_Load1)-User is in login page
@@ -1754,7 +1754,7 @@
 [ERROR]2024-03-0712:00:25.245[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0712:00:25.246[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0712:00:25.578[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0712:00:25.604[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0712:00:25.604[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0712:00:25.711[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0712:00:26.303[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0712:00:26.335[main]utilities.Logger_Load1)-User is in login page
@@ -1766,7 +1766,7 @@
 [ERROR]2024-03-0712:03:11.378[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0712:03:11.379[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0712:03:11.652[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0712:03:11.669[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0712:03:11.669[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0712:03:11.749[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0712:03:12.276[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0712:03:12.305[main]utilities.Logger_Load1)-User is in login page
@@ -1778,7 +1778,7 @@
 [ERROR]2024-03-0714:17:13.764[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0714:17:13.764[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0714:17:14.015[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0714:17:14.033[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0714:17:14.033[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0714:17:14.122[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0714:17:14.689[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0714:17:14.719[main]utilities.Logger_Load1)-User is in login page
@@ -1790,7 +1790,7 @@
 [ERROR]2024-03-0719:01:30.075[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:01:30.076[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:01:30.423[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0719:01:30.464[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0719:01:30.464[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0719:01:30.586[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0719:01:31.494[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0719:01:31.543[main]utilities.Logger_Load1)-User is in login page
@@ -1802,7 +1802,7 @@
 [ERROR]2024-03-0719:18:58.244[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:18:58.245[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:18:58.626[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0719:18:58.656[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0719:18:58.656[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0719:18:58.804[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0719:18:59.638[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0719:18:59.693[main]utilities.Logger_Load1)-User is in login page
@@ -1814,7 +1814,7 @@
 [ERROR]2024-03-0719:20:31.079[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:20:31.086[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:20:31.624[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0719:20:31.700[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0719:20:31.700[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0719:20:31.951[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0719:20:32.842[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0719:20:32.893[main]utilities.Logger_Load1)-User is in login page
@@ -1826,7 +1826,7 @@
 [ERROR]2024-03-0719:23:00.553[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:23:00.554[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:23:00.926[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0719:23:00.952[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0719:23:00.952[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0719:23:01.078[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0719:23:02.042[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0719:23:02.097[main]utilities.Logger_Load1)-User is in login page
@@ -1838,7 +1838,7 @@
 [ERROR]2024-03-0719:26:02.149[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:26:02.150[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:26:02.569[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0719:26:02.598[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0719:26:02.598[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0719:26:02.729[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0719:26:03.465[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0719:26:03.522[main]utilities.Logger_Load1)-User is in login page
@@ -1850,7 +1850,7 @@
 [ERROR]2024-03-0719:29:55.480[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:29:55.482[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0719:29:55.922[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0719:29:55.954[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0719:29:55.954[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0719:29:56.095[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0719:29:56.916[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0719:29:56.960[main]utilities.Logger_Load1)-User is in login page
@@ -1862,7 +1862,7 @@
 [ERROR]2024-03-0720:29:41.187[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0720:29:41.188[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0720:29:41.577[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0720:29:41.603[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0720:29:41.603[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0720:29:41.760[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0720:29:42.558[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0720:29:42.602[main]utilities.Logger_Load1)-User is in login page
@@ -1874,7 +1874,7 @@
 [ERROR]2024-03-0720:35:19.578[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0720:35:19.579[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0720:35:19.855[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0720:35:19.875[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0720:35:19.875[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0720:35:19.964[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0720:35:20.500[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0720:35:20.528[main]utilities.Logger_Load1)-User is in login page
@@ -1886,7 +1886,7 @@
 [ERROR]2024-03-0720:39:58.764[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0720:39:58.765[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0720:39:59.025[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0720:39:59.047[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0720:39:59.047[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0720:39:59.149[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0720:39:59.683[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0720:39:59.711[main]utilities.Logger_Load1)-User is in login page
@@ -1939,7 +1939,7 @@
 [ERROR]2024-03-0722:42:26.142[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0722:42:26.142[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0722:42:26.482[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0722:42:26.510[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0722:42:26.510[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0722:42:26.617[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0722:42:27.372[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0722:42:27.405[main]utilities.Logger_Load1)-User is in login page
@@ -1951,7 +1951,7 @@
 [ERROR]2024-03-0808:02:29.829[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0808:02:29.833[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0808:02:30.257[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0808:02:30.290[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0808:02:30.290[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0808:02:30.466[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0808:02:31.675[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0808:02:31.731[main]utilities.Logger_Load1)-User is in login page
@@ -1963,7 +1963,7 @@
 [ERROR]2024-03-0808:14:34.151[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0808:14:34.152[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0808:14:34.422[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0808:14:34.444[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0808:14:34.444[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0808:14:34.529[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0808:14:35.179[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0808:14:35.213[main]utilities.Logger_Load1)-User is in login page
@@ -1975,7 +1975,7 @@
 [ERROR]2024-03-0808:17:11.365[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0808:17:11.366[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0808:17:11.624[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0808:17:11.644[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0808:17:11.644[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0808:17:11.767[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0808:17:12.421[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0808:17:12.462[main]utilities.Logger_Load1)-User is in login page
@@ -1987,7 +1987,7 @@
 [ERROR]2024-03-0810:35:19.328[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0810:35:19.330[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0810:35:19.704[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0810:35:19.737[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0810:35:19.737[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0810:35:19.892[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0810:35:20.683[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0810:35:20.729[main]utilities.Logger_Load1)-User is in login page
@@ -2040,10 +2040,328 @@
 [ERROR]2024-03-0810:46:02.731[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0810:46:02.732[main]utilities.Logger_Load1)-No error message
 [ERROR]2024-03-0810:46:03.095[main]utilities.Logger_Load1)-No error message
-[ERROR]2024-03-0810:46:03.122[main]utilities.Logger_Load1)-password_mismatch:The two password fields didnâ€™t match.
+[ERROR]2024-03-0810:46:03.122[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn€™t match.
 [INFO ]2024-03-0810:46:03.253[main]utilities.Logger_Load1)-User is on regitration page
 [INFO ]2024-03-0810:46:04.110[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0810:46:04.160[main]utilities.Logger_Load1)-User is in login page
 [INFO ]2024-03-0810:46:04.695[main]utilities.Logger_Load1)-User is on the signin page
 [INFO ]2024-03-0810:46:04.730[main]utilities.Logger_Load1)-User is in login page
 [ERROR]2024-03-0810:46:05.390[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0814:54:34.359[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:54:34.483[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:54:34.624[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:54:34.625[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:54:34.922[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:54:34.950[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0814:54:35.171[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0814:54:35.719[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0814:54:35.746[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0814:54:36.086[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0814:54:36.117[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0814:54:36.620[main]utilities.Logger_Load1)-Invalid Username and Password
+[ERROR]2024-03-0814:56:49.616[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:56:49.751[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:56:49.940[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:56:49.941[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:56:50.287[main]utilities.Logger_Load1)-No error message
+[ERROR]2024-03-0814:56:50.308[main]utilities.Logger_Load1)-password_mismatch:The two password fields didn’t match.
+[INFO ]2024-03-0814:56:50.430[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0814:56:51.040[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0814:56:51.070[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0814:56:51.403[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0814:56:51.431[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0814:56:52.066[main]utilities.Logger_Load1)-Invalid Username and Password
+[INFO ]2024-03-0815:27:31.079[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0815:31:07.097[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:10.223[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:12.806[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:15.284[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:17.413[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:19.502[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:21.486[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:23.767[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:26.361[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:28.742[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:31.022[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-0815:31:31.233[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:34.081[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0815:31:34.127[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0815:31:34.497[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:37.286[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0815:31:37.346[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0815:31:38.209[main]utilities.Logger_Load1)-Invalid Username and Password
+[INFO ]2024-03-0815:31:38.987[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:47.135[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:49.764[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:52.900[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:55.877[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:31:59.026[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:32:56.386[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:35:15.923[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:35:18.557[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:35:20.549[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:35:22.563[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:35:24.773[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:35:27.128[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:35:29.636[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:39:04.552[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:39:06.783[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:39:08.551[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:39:10.301[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:39:12.120[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:39:13.983[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:26.759[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:29.862[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:32.483[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:35.336[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:38.035[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:41.495[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:45.518[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:40:49.741[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:41:54.971[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0815:43:49.210[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:15.417[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:18.073[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0817:57:18.123[main]utilities.Logger_Load1)-User is in login page
+[INFO ]2024-03-0817:57:18.372[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:20.743[main]utilities.Logger_Load1)-User is on the signin page
+[INFO ]2024-03-0817:57:20.793[main]utilities.Logger_Load1)-User is in login page
+[ERROR]2024-03-0817:57:21.546[main]utilities.Logger_Load1)-Invalid Username and Password
+[INFO ]2024-03-0817:57:22.115[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:24.849[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:27.611[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:31.060[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:34.225[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:37.520[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:41.117[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:44.970[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:48.795[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:52.385[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:55.419[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:57:58.452[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:58:01.370[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:58:04.430[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:58:07.494[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:58:10.576[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:58:13.668[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:58:16.397[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:58:19.575[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0817:59:09.675[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:29:35.775[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:22.202[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:30.491[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:33.505[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:36.582[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:40.065[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:43.817[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:47.947[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:51.694[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:55.145[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:31:58.518[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:02.354[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:06.216[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:09.966[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:13.676[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:18.998[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:23.773[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:28.909[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:32:34.170[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:33:53.068[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:01.477[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:04.423[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:07.317[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:10.241[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:13.117[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:16.289[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:19.402[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:22.489[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:25.321[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:28.496[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:31.548[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:34.709[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:37.939[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:42.171[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:46.351[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:50.613[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:34:54.933[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:36:41.971[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:36:50.960[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:36:54.479[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:36:57.884[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:01.431[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:04.773[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:08.503[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:11.985[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:15.520[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:18.973[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:22.648[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:26.526[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:30.230[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:33.840[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:38.822[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:43.694[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:48.767[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:37:54.184[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:15.910[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:30.329[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:30.339[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:30.374[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:30.407[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:30.586[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:30.782[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:30.876[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:41:37.440[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:37.555[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.143[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.369[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.393[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.449[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.468[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.480[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.504[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:46:51.526[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:46.000[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.079[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.096[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.085[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.117[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.121[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.128[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.145[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:50:58.146[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:05.811[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:18.701[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:18.747[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:18.888[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:18.966[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:19.035[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:19.123[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:19.294[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0818:53:19.451[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0819:25:32.184[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:14:36.846[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:14:45.628[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:14:48.494[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:14:51.787[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:14:54.829[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:14:57.977[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:01.514[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:05.649[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:09.258[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:12.954[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:16.432[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:20.150[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:23.818[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:27.637[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:32.952[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:37.760[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:42.592[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:15:47.680[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:17:46.792[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.521[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.540[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.564[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.568[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.571[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.585[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.589[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0820:18:00.593[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:37:27.562[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:37:37.260[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:37:41.524[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:37:45.453[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:37:49.291[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:37:53.253[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:37:57.427[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:01.615[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:05.810[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:09.682[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:13.854[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:18.126[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:22.239[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:26.443[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:31.645[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:37.004[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:42.276[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:38:47.637[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:08.214[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:26.211[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:26.703[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:26.829[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:29.144[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:29.164[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:29.196[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:29.217[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:39:29.231[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.944[TestNG-PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.945[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.945[TestNG-PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.944[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.944[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.945[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.944[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.945[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.945[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:21.944[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:40.095[TestNG-PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:40.458[TestNG-PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:40.758[TestNG-PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:40.974[TestNG-PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:41.530[TestNG-PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:41.657[TestNG-PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:41.846[TestNG-PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-0821:43:41.897[TestNG-PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
