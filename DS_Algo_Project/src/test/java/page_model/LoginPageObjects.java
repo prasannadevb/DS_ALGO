@@ -2,6 +2,7 @@ package page_model;
 
 import org.openqa.selenium.By;
 
+import app_hooks.App_Hooks;
 import constants.Constants;
 import stepdefinitions.Common_Step_Def;
 
@@ -31,35 +32,35 @@ public class LoginPageObjects {
 	
 	
 	public void clickSignin() {
-		Common_Step_Def.driver.findElement(signinLink).click();
+		App_Hooks.getInstance().getDriver().findElement(signinLink).click();
 	}
 	
 	public  void enterUsername () {
-		Common_Step_Def.driver.findElement(usernameTextbox).sendKeys(Constants.USERNAME);
+		App_Hooks.getInstance().getDriver().findElement(usernameTextbox).sendKeys(Constants.USERNAME);
 		
 	}
 	public  void enterPassword () {
-		Common_Step_Def.driver.findElement(passwordTextbox).sendKeys(Constants.PASSWORD);
+		App_Hooks.getInstance().getDriver().findElement(passwordTextbox).sendKeys(Constants.PASSWORD);
 		
 	}
 	public  void clickLogin() {
-		Common_Step_Def.driver.findElement(loginbtn).click();
+		App_Hooks.getInstance().getDriver().findElement(loginbtn).click();
 		
 	}
 	public void clearUsername() {
-		Common_Step_Def.driver.findElement(usernameTextbox).clear();
+		App_Hooks.getInstance().getDriver().findElement(usernameTextbox).clear();
 	}
 	public void clearPassword() {
-		Common_Step_Def.driver.findElement(passwordTextbox).clear();
+		App_Hooks.getInstance().getDriver().findElement(passwordTextbox).clear();
 	}
 	public void invalidUsername() {
-		Common_Step_Def.driver.findElement(usernameTextbox).sendKeys("hello");
+		App_Hooks.getInstance().getDriver().findElement(usernameTextbox).sendKeys("hello");
 	}
 	public void invalidPassword() {
-		Common_Step_Def.driver.findElement(passwordTextbox).sendKeys("hi123");
+		App_Hooks.getInstance().getDriver().findElement(passwordTextbox).sendKeys("hi123");
 	}
 	public String getAlert() {
-		return Common_Step_Def.driver.findElement(errorMsg).getText();
+		return App_Hooks.getInstance().getDriver().findElement(errorMsg).getText();
 
 
 	}

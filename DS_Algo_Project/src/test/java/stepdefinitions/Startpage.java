@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
+import app_hooks.App_Hooks;
 import constants.Constants;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -17,7 +18,7 @@ public class Startpage {
 	@Given("user is on the get started page")
 	public void user_is_on_the_get_started_page() {
 		
-		Common_Step_Def.driver.get(Constants.URL);
+		App_Hooks.getInstance().getDriver().get(Constants.URL);
 	    
 	}
 
@@ -28,7 +29,7 @@ public class Startpage {
 
 	@Then("user should see the homepage")
 	public void user_should_see_the_homepage() {
-		String currentUrl = Common_Step_Def.driver.getCurrentUrl(); 
+		String currentUrl = App_Hooks.getInstance().getDriver().getCurrentUrl(); 
 		String expectedUrl ="https://dsportalapp.herokuapp.com/home";
 		Assert.assertEquals(currentUrl, expectedUrl);
 		System.out.println("User is on the hompage");
@@ -38,7 +39,7 @@ public class Startpage {
 
 	@Given("user is on the home page")
 	public void user_is_on_the_home_page() {
-	    Common_Step_Def.driver.get(Constants.HOMEPAGE);
+	    App_Hooks.getInstance().getDriver().get(Constants.HOMEPAGE);
 	}
 
 	@When("user clicks on the get started button in data Structure introduction")

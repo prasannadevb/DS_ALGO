@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.Keys;
 
+import app_hooks.App_Hooks;
+
 import org.openqa.selenium.By;
 
 import stepdefinitions.Common_Step_Def;
@@ -42,68 +44,68 @@ private static ArrayPageObjects arrayPageObjects;
 	
 	public void clickArraysinPythonBtn()  {
 		
-		Common_Step_Def.driver.findElement(arraysinpythonBtn).click();
+		App_Hooks.getInstance().getDriver().findElement(arraysinpythonBtn).click();
 	}
 	
    public void clickTryhere()  {
 		
-		Common_Step_Def.driver.findElement(tryhereBtn).click();
+		App_Hooks.getInstance().getDriver().findElement(tryhereBtn).click();
 	}
    public void enterCode(String code)  {
 		System.out.println("inside invalid error code");
-		Common_Step_Def.driver.findElement(editorbox).sendKeys(code);
+		App_Hooks.getInstance().getDriver().findElement(editorbox).sendKeys(code);
 		System.out.println("after sleep");
 	}
    public void clickRunBtn()  {
 		
-		Common_Step_Def.driver.findElement(runBtn).click();
+		App_Hooks.getInstance().getDriver().findElement(runBtn).click();
 		
 	}
    public void enterValidCode(String validCode) {
 	   
-	    Common_Step_Def.driver.findElement(editorbox).sendKeys(validCode);
+	    App_Hooks.getInstance().getDriver().findElement(editorbox).sendKeys(validCode);
 		
 	}
    
    public String getOutput()  {
 		
-	    return Common_Step_Def.driver.findElement(console).getText().trim();
+	    return App_Hooks.getInstance().getDriver().findElement(console).getText().trim();
 	}
    public void clickArraysUsingList()  {
 		
-		Common_Step_Def.driver.findElement(arraysusinglist).click();
+		App_Hooks.getInstance().getDriver().findElement(arraysusinglist).click();
 	}
    public void clickBasicOperationsinLists()  {
 		
-		Common_Step_Def.driver.findElement(basic_link).click();
+		App_Hooks.getInstance().getDriver().findElement(basic_link).click();
 	}
    public void clickApplicationsOfArray()  {
 		
-		Common_Step_Def.driver.findElement(applications_array).click();
+		App_Hooks.getInstance().getDriver().findElement(applications_array).click();
 	}
    public void clickPracticeQuestions()  {
 		
-		Common_Step_Def.driver.findElement(practice_questions).click();
+		App_Hooks.getInstance().getDriver().findElement(practice_questions).click();
 	}
    public void clicksearchTheArray()  {
 		
-		Common_Step_Def.driver.findElement(search_the_Array).click();
+		App_Hooks.getInstance().getDriver().findElement(search_the_Array).click();
 	}
    public void clickmaxConsecutiveOnes()  {
 		
-		Common_Step_Def.driver.findElement(max_consecutive_Ones).click();
+		App_Hooks.getInstance().getDriver().findElement(max_consecutive_Ones).click();
 	}
    public void clickfindNumbers()  {
 		
-		Common_Step_Def.driver.findElement(find_Numbers).click();
+		App_Hooks.getInstance().getDriver().findElement(find_Numbers).click();
 	}
    public void clicksquaresOfSortedArray()  {
 		
-		Common_Step_Def.driver.findElement(squares_sortedArray).click();
+		App_Hooks.getInstance().getDriver().findElement(squares_sortedArray).click();
 	}
    public void clickSubmitBtn()  {
 		
-		Common_Step_Def.driver.findElement(submitBtn).click();
+		App_Hooks.getInstance().getDriver().findElement(submitBtn).click();
 	}
   
    

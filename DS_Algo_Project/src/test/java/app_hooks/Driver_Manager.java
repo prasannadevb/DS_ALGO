@@ -1,5 +1,7 @@
 package app_hooks;
-import java.sql.DriverManager;
+
+
+import java.lang.reflect.Method;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -8,57 +10,70 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.ITestContext;
+import org.testng.annotations.BeforeMethod;
 
 import constants.Constants;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class Driver_Manager {
-private static final Logger LOGGER= LogManager.getLogger(DriverManager.class);
-	
-	private static WebDriver driver=null;
-	
-	public static void launchBrowser() {
+	private static final Logger LOGGER= LogManager.getLogger(Driver_Manager.class);
+	private static Driver_Manager driverManager;
+
+	private static final ThreadLocal<WebDriver> drivers = new ThreadLocal<>();
+	private Driver_Manager() {};
+
+	public static Driver_Manager getInstance() {
+		if(driverManager==null) {
+			driverManager= new Driver_Manager();
+		}
+		return driverManager;
+
+	}
+
+	public  WebDriver createDriver(String browser) {
 		// TODO Auto-generated method stub
 
 		try {
 
-			switch (Constants.BROWSER) {
+			switch (browser) {
 			case "chrome":
-				WebDriverManager.chromedriver().setup();
+
 				LOGGER.info("Launching "+ Constants.BROWSER);
-				driver= new ChromeDriver();
-				break;
+				return new ChromeDriver();
+
 			case "firefox":
-				WebDriverManager.firefoxdriver().setup();
+
 				LOGGER.info("Launching "+ Constants.BROWSER);
-				driver= new FirefoxDriver();
-				break;
+				return  new FirefoxDriver();
+
 			case "ie":
-				WebDriverManager.iedriver().setup();
+
 				LOGGER.info("Launching "+ Constants.BROWSER);
-				driver= new InternetExplorerDriver();
-				break;
+				return new InternetExplorerDriver();
+
 			case "edge":
-				WebDriverManager.edgedriver().setup();
+
 				LOGGER.info("Launching "+ Constants.BROWSER);
-				driver= new EdgeDriver();
-				break;
+				return new EdgeDriver();
+
 			default:
-				WebDriverManager.chromedriver().setup();
+
 				LOGGER.info("Launching "+ Constants.BROWSER);
-				driver= new ChromeDriver();
-				break;
+				return new ChromeDriver();
+
 			}
 
 		}
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		return new ChromeDriver();
 
 	}
 
-	public static WebDriver getDriver() {
-		return driver;
-	}
+
+
+	
 }

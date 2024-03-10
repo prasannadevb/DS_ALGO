@@ -2,6 +2,7 @@ package page_model;
 
 import org.openqa.selenium.By;
 
+import app_hooks.App_Hooks;
 import stepdefinitions.Common_Step_Def;
 
 public class HomePageObjects {
@@ -25,7 +26,7 @@ public class HomePageObjects {
 	
 	public boolean isSignoutBtnDisplayed() {
 		
-	boolean isSignoutBtnDisplayed = Common_Step_Def.driver.findElement(signoutBtn).isDisplayed();
+	boolean isSignoutBtnDisplayed = App_Hooks.getInstance().getDriver().findElement(signoutBtn).isDisplayed();
 	return isSignoutBtnDisplayed;
 	}
 	
@@ -34,6 +35,6 @@ public class HomePageObjects {
 		System.out.println("clicking the get started button");
 		Thread.sleep(5000);
 		System.out.println("Wait over");
-		Common_Step_Def.driver.findElement(arraygetStartedBtn).click();
+		App_Hooks.getInstance().getDriver().findElement(arraygetStartedBtn).click();
 	}
 }

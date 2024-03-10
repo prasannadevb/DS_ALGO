@@ -1,14 +1,16 @@
-
+@array
 Feature: Testing the Array Page
+	Background:
+	 Given the user is on the DS_Algo signin page
+		When The user clicks login button after entering valid username and valid password
+    Then The user should be redirected to Data Structure HomePage
 
-
-  @arrayhome
-  Scenario: Verify user is able to navigate into DS_Algo Arrayâ€™s Page
-  
+@scenario1
+  Scenario: Verify user is able to navigate into DS_Algo Array Page
     Given the user is on the Home Page
     When  the user clicks the get started button below the Array
     Then  the user should be redirected to the page whose title is "Array" and the url is "https://dsportalapp.herokuapp.com/array/"
-    
+    @scenario2
   Scenario: Verify Arrays in Python link redirects to Arrays in Python page.
     Given the user is on the Array page
     When  the user clicks Arrays in Python link
@@ -81,7 +83,7 @@ Feature: Testing the Array Page
 	When  the user clicks search the array link
 	Then  the user should be directed to search the array question page
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad inputÂ onÂ lineÂ 2"
+	Then the user should see an alert contains "bad input on line 2"
 	When  the user clicks on the submit button without entering any code
 	Then  the user should see "Error occurred during submission" message
 	
@@ -90,7 +92,7 @@ Feature: Testing the Array Page
 	Given the user is on the practice question page
 	When  the user clicks max consecutive ones
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad inputÂ onÂ lineÂ 2"
+	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code
 	Then the user should see "Error occurred during submission" message
 	
@@ -99,7 +101,7 @@ Feature: Testing the Array Page
 	Given the user is on the practice question page
 	When  the user clicks find numbers with even number of digits
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad inputÂ onÂ lineÂ 2"
+	Then the user should see an alert contains "bad inuton lne 2"
 	When the user clicks on the submit button without entering any code
 	Then the user should see "Error occurred during submission" message
 	
@@ -108,7 +110,7 @@ Feature: Testing the Array Page
 	Given the user is on the practice question page
 	When  the user clicks squares in sorted array
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad inputÂ onÂ lineÂ 2"
+	Then the user should see an alert contains "bad inuton lne 2"
 	When the user clicks on the submit button without entering any code in squares of a sorted array
 	Then the user should see "No tests were collected" message
 	Then the user should be redirected to the homepage
@@ -120,9 +122,3 @@ Feature: Testing the Array Page
 	Then  the user should be directed to search the array question page
 	When  the user gives a valid code
 	Then the user should see the output in console
-	
-	
-
-	
-	
- 

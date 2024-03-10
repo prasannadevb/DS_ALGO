@@ -1,7 +1,7 @@
 package page_model;
 
 import org.openqa.selenium.By;
-
+import app_hooks.App_Hooks;
 import stepdefinitions.Common_Step_Def;
 
 public class RegisterPageObjects {
@@ -27,52 +27,52 @@ By passwordTxtbox  = By.xpath("//input[@name='password1']");
 	By errorMsg = By.xpath("//div[@class='alert alert-primary']");
 	
 	public void clickRegisterLink() {
-		Common_Step_Def.driver.findElement(registerLink).click();
+		App_Hooks.getInstance().getDriver().findElement(registerLink).click();
 	}
 	
 	public  void enterUsername (String username) {
-		Common_Step_Def.driver.findElement(usernameTxtbox).sendKeys(username);
+		App_Hooks.getInstance().getDriver().findElement(usernameTxtbox).sendKeys(username);
 		
 	}
 	public  void enterPassword (String password) {
-		Common_Step_Def.driver.findElement(passwordTxtbox).sendKeys(password);
+		App_Hooks.getInstance().getDriver().findElement(passwordTxtbox).sendKeys(password);
 		
 	}
 	public  void clickRegister() {
-		Common_Step_Def.driver.findElement(regsitrationBtn).click();
+		App_Hooks.getInstance().getDriver().findElement(regsitrationBtn).click();
 		
 	}
 	public void clearUsername() {
-		Common_Step_Def.driver.findElement(usernameTxtbox).clear();
+		App_Hooks.getInstance().getDriver().findElement(usernameTxtbox).clear();
 	}
 	public void clearPassword() {
-		Common_Step_Def.driver.findElement(passwordTxtbox).clear();
+		App_Hooks.getInstance().getDriver().findElement(passwordTxtbox).clear();
 	}
 	public void invalidUsername() {
-		Common_Step_Def.driver.findElement(usernameTxtbox).sendKeys("@+= ");
+		App_Hooks.getInstance().getDriver().findElement(usernameTxtbox).sendKeys("@+= ");
 	}
 	public void invalidPassword() {
-		Common_Step_Def.driver.findElement(passwordTxtbox).sendKeys("123");
+		App_Hooks.getInstance().getDriver().findElement(passwordTxtbox).sendKeys("123");
 	}
 	public void invalidPassword1() {
-		Common_Step_Def.driver.findElement(passwordTxtbox).sendKeys("numpy");
+		App_Hooks.getInstance().getDriver().findElement(passwordTxtbox).sendKeys("numpy");
 	}
 	public void enterinvalidconfirmation() {
-		Common_Step_Def.driver.findElement(passwordConfirmbox).sendKeys("numpy90");
+		App_Hooks.getInstance().getDriver().findElement(passwordConfirmbox).sendKeys("numpy90");
 		
 	}
 	public void enterconfirmation(String password) {
-		Common_Step_Def.driver.findElement(passwordConfirmbox).sendKeys(password);
+		App_Hooks.getInstance().getDriver().findElement(passwordConfirmbox).sendKeys(password);
 		
 	}
 	public void clearconfirmation() {
-		Common_Step_Def.driver.findElement(passwordConfirmbox).clear();
+		App_Hooks.getInstance().getDriver().findElement(passwordConfirmbox).clear();
 		
 	}
 	
 
 	public String getAlert() {
-		return Common_Step_Def.driver.findElement(errorMsg).getText();
+		return App_Hooks.getInstance().getDriver().findElement(errorMsg).getText();
 
 	}
 	}
