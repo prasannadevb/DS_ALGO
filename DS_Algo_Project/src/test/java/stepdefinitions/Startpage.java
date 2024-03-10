@@ -17,18 +17,18 @@ public class Startpage {
 	@Given("user is on the get started page")
 	public void user_is_on_the_get_started_page() {
 		
-		Common_Step_Def.driver.get(Constants.URL);
+		Common_Step_Def.getInstance().getDriver().get(Constants.URL);
 	    
 	}
 
 	@When("user clicks the get start button")
-	public void user_clicks_the_get_start_button() throws InterruptedException {
+	public void user_clicks_the_get_start_button()  {
 		StartpagePageObjects.getInstance().algo_Startpage();
 	}
 
 	@Then("user should see the homepage")
 	public void user_should_see_the_homepage() {
-		String currentUrl = Common_Step_Def.driver.getCurrentUrl(); 
+		String currentUrl = Common_Step_Def.getInstance().getDriver().getCurrentUrl(); 
 		String expectedUrl ="https://dsportalapp.herokuapp.com/home";
 		Assert.assertEquals(currentUrl, expectedUrl);
 		System.out.println("User is on the hompage");
@@ -38,7 +38,7 @@ public class Startpage {
 
 	@Given("user is on the home page")
 	public void user_is_on_the_home_page() {
-	    Common_Step_Def.driver.get(Constants.HOMEPAGE);
+	    Common_Step_Def.getInstance().getDriver().get(Constants.HOMEPAGE);
 	}
 
 	@When("user clicks on the get started button in data Structure introduction")

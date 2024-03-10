@@ -1,8 +1,13 @@
-
+@arrayhome
 Feature: Testing the Array Page
 
+Background:
 
-  @arrayhome
+    Given the user is on the DS_Algo signin page
+    When The user clicks login button after entering valid username and valid password
+    Then The user should land in Data Structure Home Page
+
+  
   Scenario: Verify user is able to navigate into DS_Algo Array’s Page
   
     Given the user is on the Home Page

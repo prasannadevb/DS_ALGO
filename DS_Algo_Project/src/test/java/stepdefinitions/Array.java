@@ -28,7 +28,7 @@ public class Array {
 	@Given("the user is on the Home Page")
 	public void the_user_is_on_the_home_page() {
 		System.out.println("in the home page");
-		Common_Step_Def.driver.get(Constants.HOMEPAGE);
+		Common_Step_Def.getInstance().getDriver().get(Constants.HOMEPAGE);
 
 	}
 
@@ -46,8 +46,8 @@ public class Array {
 
 	@Then("the user should be redirected to the page whose title is {string} and the url is {string}")
 	public void the_user_should_be_redirected_to_the_page_whose_title_is_and_the_url_is(String expectedTitle, String expectedURL) {
-		String actualTitle =  Common_Step_Def.driver.getTitle(); 
-		String actualURL   =  Common_Step_Def.driver.getCurrentUrl();
+		String actualTitle =  Common_Step_Def.getInstance().getDriver().getTitle(); 
+		String actualURL   =  Common_Step_Def.getInstance().getDriver().getCurrentUrl();
 
 		System.out.println("Actual title"+ actualTitle);
 		System.out.println("Expected title"+ expectedTitle);
@@ -64,7 +64,7 @@ public class Array {
 
 	@Given("the user is on the Array page")
 	public void the_user_is_on_the_array_page() {
-		Common_Step_Def.driver.get(Constants.ARRAYPAGE);
+		Common_Step_Def.getInstance().getDriver().get(Constants.ARRAYPAGE);
 	}
 
 	@When("the user clicks Arrays in Python link")
@@ -75,14 +75,14 @@ public class Array {
 	@Then("the user should be redirected to {string} page")
 	public void the_user_should_be_redirected_to_page(String expectedURL)  {
 		
-		String actualURL =  Common_Step_Def.driver.getCurrentUrl();
+		String actualURL =  Common_Step_Def.getInstance().getDriver().getCurrentUrl();
 		Assert.assertEquals(actualURL,expectedURL);
 	}
 
 
 	@Given("the user is on the Arrays Using List Page")
 	public void the_user_is_on_the_arrays_using_list_page() {
-		Common_Step_Def.driver.get(Constants.ARRAYSUSINGLIST);
+		Common_Step_Def.getInstance().getDriver().get(Constants.ARRAYSUSINGLIST);
 	}
 	@When("the user clicks Basic Operations in Lists Link")
 	public void the_user_clicks_basic_operations_in_lists_link()  {
@@ -91,7 +91,7 @@ public class Array {
 
 	@Given("the user is on the Basic Operations in Lists Page")
 	public void the_user_is_on_the_basic_operations_in_lists_page() {
-		Common_Step_Def.driver.get(Constants.BASICOPERATIONSINLISTS);
+		Common_Step_Def.getInstance().getDriver().get(Constants.BASICOPERATIONSINLISTS);
 	}
 
 	@When("the user clicks Applications of Array Link")
@@ -102,7 +102,7 @@ public class Array {
 
 	@Given("the user is on the Arrays in Python Page")
 	public void the_user_is_on_the_arrays_in_python_page() {
-		Common_Step_Def.driver.get(Constants.ARRAYSINPYTHON);
+		Common_Step_Def.getInstance().getDriver().get(Constants.ARRAYSINPYTHON);
 	}
 
 	@When("the user clicks Arrays Using List link")
@@ -118,13 +118,13 @@ public class Array {
 
 	@Then("the user should be redirected to Python Editor with the url as {string}")
 	public void the_user_should_be_redirected_to_python_editor_with_the_url_as(String expectedURL) {
-		String actualURL =  Common_Step_Def.driver.getCurrentUrl();
+		String actualURL =  Common_Step_Def.getInstance().getDriver().getCurrentUrl();
 		Assert.assertEquals(actualURL,expectedURL);
 	}
 
 	@Given("the user is on the python editor page")
 	public void the_user_is_on_the_python_editor_page() {
-		Common_Step_Def.driver.get(Constants.EDITORBOX);
+		Common_Step_Def.getInstance().getDriver().get(Constants.EDITORBOX);
 	}
 
 	@When("the user clicks the run button without entering any code in the editor")
@@ -147,7 +147,7 @@ public class Array {
 	@Then("the user should able to see an error message in alert window")
 	public void the_user_should_able_to_see_an_error_message_in_alert_window() {
 
-		Alert alert = Common_Step_Def.driver.switchTo().alert();
+		Alert alert = Common_Step_Def.getInstance().getDriver().switchTo().alert();
 		String actualErrorMessage = alert.getText();
 		Assert.assertEquals(actualErrorMessage, "NameError: name 'printf' is not defined on line 1");
 		alert.accept();
@@ -173,7 +173,7 @@ public class Array {
 
 	@Given("the user is on the Applications Of Array Page")
 	public void the_user_is_on_the_applications_of_array_page1() {
-		Common_Step_Def.driver.get(Constants.APPLICATIONSOFARRAY);
+		Common_Step_Def.getInstance().getDriver().get(Constants.APPLICATIONSOFARRAY);
 
 	}
 	@When("the user clicks on the Practice Questions link")
@@ -183,12 +183,12 @@ public class Array {
 
 	@Then("the user should be redirected to practice page having links like {string} ,{string},{string} and {string}")
 	public void the_user_should_be_redirected_to_practice_page_having_links_like_and(String expectedURL1, String expectedURL2, String expectedURL3, String expectedURL4) {
-		Common_Step_Def.driver.get(Constants.PRACTICEQUESTIONS);
+		Common_Step_Def.getInstance().getDriver().get(Constants.PRACTICEQUESTIONS);
 	}
 
 	@Given("the user is on the Practice page")
 	public void the_user_is_on_the_practice_page() {
-		Common_Step_Def.driver.get(Constants.PRACTICEQUESTIONS);
+		Common_Step_Def.getInstance().getDriver().get(Constants.PRACTICEQUESTIONS);
 	}
 
 	@When("the user clicks search the array link")
@@ -197,7 +197,7 @@ public class Array {
 	}
 	@Then("the user should be directed to search the array question page")
 	public void the_user_should_be_directed_to_search_the_array_question_page() {
-		Common_Step_Def.driver.get(Constants.PRACTICEQUESTION1);
+		Common_Step_Def.getInstance().getDriver().get(Constants.PRACTICEQUESTION1);
 	}
 
 	@When("the user clicks max consecutive ones link")
@@ -207,7 +207,7 @@ public class Array {
 
 	@Then("the user should be redirected to {string}")
 	public void the_user_should_be_redirected_to(String url) {
-		Common_Step_Def.driver.get(url);
+		Common_Step_Def.getInstance().getDriver().get(url);
 	}
 
 	@When("the user clicks find numbers with even number of digits link")
@@ -223,7 +223,7 @@ public class Array {
 
 	@Given("the user is on the practice question page")
 	public void the_user_is_on_the_practice_question_page() {
-		Common_Step_Def.driver.get(Constants.PRACTICEQUESTIONS);
+		Common_Step_Def.getInstance().getDriver().get(Constants.PRACTICEQUESTIONS);
 	}
 
 	@When("the user clicks max consecutive ones")
@@ -269,7 +269,7 @@ public class Array {
 	@Then("the user should see an alert contains {string}")
 	public void the_user_should_see_an_alert_contains(String string) {
 
-		Alert alert = Common_Step_Def.driver.switchTo().alert();
+		Alert alert = Common_Step_Def.getInstance().getDriver().switchTo().alert();
 		String actualErrorMessage = alert.getText();
 		Assert.assertEquals(actualErrorMessage, "SyntaxError: bad input on line 2");
 		alert.accept();
@@ -289,7 +289,7 @@ public class Array {
 	}
 	@Then("the user should be redirected to the homepage")
 	public void the_user_should_be_redirected_to_the_homepage() {
-		Common_Step_Def.driver.get(Constants.HOMEPAGE);
+		Common_Step_Def.getInstance().getDriver().get(Constants.HOMEPAGE);
 	}
 
 
@@ -298,8 +298,8 @@ public class Array {
 		JavascriptExecutor js = null;
 		try {
 			Common_Utils.readExcelFile("Data.xlsx");
-		if (Common_Step_Def.driver instanceof JavascriptExecutor) {
-		    js = (JavascriptExecutor) Common_Step_Def.driver;
+		if (Common_Step_Def.getInstance().getDriver() instanceof JavascriptExecutor) {
+		    js = (JavascriptExecutor) Common_Step_Def.getInstance().getDriver();
 		}
 		js.executeScript("return document.getElementsByClassName('CodeMirror-line')[0].remove();");
 		ArrayPageObjects.getInstance().enterValidCode(Common_Utils.questionsList.get(1));	

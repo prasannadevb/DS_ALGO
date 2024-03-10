@@ -22,57 +22,57 @@ public class RegisterPageObjects {
 	By registerLink = By.xpath("//a[text()=' Register ']");
 	By regsitrationBtn = By.xpath("//input[@value='Register']");
 	By usernameTxtbox  = By.xpath("//input[@name='username']");
-By passwordTxtbox  = By.xpath("//input[@name='password1']");
+    By passwordTxtbox  = By.xpath("//input[@name='password1']");
 	By passwordConfirmbox = By.xpath("//input[@name='password2']");
 	By errorMsg = By.xpath("//div[@class='alert alert-primary']");
 	
 	public void clickRegisterLink() {
-		Common_Step_Def.driver.findElement(registerLink).click();
+		Common_Step_Def.getInstance().getDriver().findElement(registerLink).click();
 	}
 	
 	public  void enterUsername (String username) {
-		Common_Step_Def.driver.findElement(usernameTxtbox).sendKeys(username);
+		Common_Step_Def.getInstance().getDriver().findElement(usernameTxtbox).sendKeys(username);
 		
 	}
 	public  void enterPassword (String password) {
-		Common_Step_Def.driver.findElement(passwordTxtbox).sendKeys(password);
+		Common_Step_Def.getInstance().getDriver().findElement(passwordTxtbox).sendKeys(password);
 		
 	}
 	public  void clickRegister() {
-		Common_Step_Def.driver.findElement(regsitrationBtn).click();
+		Common_Step_Def.getInstance().getDriver().findElement(regsitrationBtn).click();
 		
 	}
 	public void clearUsername() {
-		Common_Step_Def.driver.findElement(usernameTxtbox).clear();
+		Common_Step_Def.getInstance().getDriver().findElement(usernameTxtbox).clear();
 	}
 	public void clearPassword() {
-		Common_Step_Def.driver.findElement(passwordTxtbox).clear();
+		Common_Step_Def.getInstance().getDriver().findElement(passwordTxtbox).clear();
 	}
 	public void invalidUsername() {
-		Common_Step_Def.driver.findElement(usernameTxtbox).sendKeys("@+= ");
+		Common_Step_Def.getInstance().getDriver().findElement(usernameTxtbox).sendKeys("@+= ");
 	}
 	public void invalidPassword() {
-		Common_Step_Def.driver.findElement(passwordTxtbox).sendKeys("123");
+		Common_Step_Def.getInstance().getDriver().findElement(passwordTxtbox).sendKeys("123");
 	}
 	public void invalidPassword1() {
-		Common_Step_Def.driver.findElement(passwordTxtbox).sendKeys("numpy");
+		Common_Step_Def.getInstance().getDriver().findElement(passwordTxtbox).sendKeys("numpy");
 	}
 	public void enterinvalidconfirmation() {
-		Common_Step_Def.driver.findElement(passwordConfirmbox).sendKeys("numpy90");
+		Common_Step_Def.getInstance().getDriver().findElement(passwordConfirmbox).sendKeys("numpy90");
 		
 	}
 	public void enterconfirmation(String password) {
-		Common_Step_Def.driver.findElement(passwordConfirmbox).sendKeys(password);
+		Common_Step_Def.getInstance().getDriver().findElement(passwordConfirmbox).sendKeys(password);
 		
 	}
 	public void clearconfirmation() {
-		Common_Step_Def.driver.findElement(passwordConfirmbox).clear();
+		Common_Step_Def.getInstance().getDriver().findElement(passwordConfirmbox).clear();
 		
 	}
 	
 
 	public String getAlert() {
-		return Common_Step_Def.driver.findElement(errorMsg).getText();
+		return Common_Step_Def.getInstance().getDriver().findElement(errorMsg).getText();
 
 	}
 	}

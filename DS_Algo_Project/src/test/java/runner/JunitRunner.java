@@ -19,7 +19,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 //location of step definition files
 
-public class Test_Runner extends AbstractTestNGCucumberTests {
+public class JunitRunner extends AbstractTestNGCucumberTests {
 
 	@Override
 

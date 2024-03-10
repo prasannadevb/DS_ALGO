@@ -31,35 +31,35 @@ public class LoginPageObjects {
 	
 	
 	public void clickSignin() {
-		Common_Step_Def.driver.findElement(signinLink).click();
+		Common_Step_Def.getInstance().getDriver().findElement(signinLink).click();
 	}
 	
 	public  void enterUsername () {
-		Common_Step_Def.driver.findElement(usernameTextbox).sendKeys(Constants.USERNAME);
+		Common_Step_Def.getInstance().getDriver().findElement(usernameTextbox).sendKeys(Constants.USERNAME);
 		
 	}
 	public  void enterPassword () {
-		Common_Step_Def.driver.findElement(passwordTextbox).sendKeys(Constants.PASSWORD);
+		Common_Step_Def.getInstance().getDriver().findElement(passwordTextbox).sendKeys(Constants.PASSWORD);
 		
 	}
 	public  void clickLogin() {
-		Common_Step_Def.driver.findElement(loginbtn).click();
+		Common_Step_Def.getInstance().getDriver().findElement(loginbtn).click();
 		
 	}
 	public void clearUsername() {
-		Common_Step_Def.driver.findElement(usernameTextbox).clear();
+		Common_Step_Def.getInstance().getDriver().findElement(usernameTextbox).clear();
 	}
 	public void clearPassword() {
-		Common_Step_Def.driver.findElement(passwordTextbox).clear();
+		Common_Step_Def.getInstance().getDriver().findElement(passwordTextbox).clear();
 	}
 	public void invalidUsername() {
-		Common_Step_Def.driver.findElement(usernameTextbox).sendKeys("hello");
+		Common_Step_Def.getInstance().getDriver().findElement(usernameTextbox).sendKeys("hello");
 	}
 	public void invalidPassword() {
-		Common_Step_Def.driver.findElement(passwordTextbox).sendKeys("hi123");
+		Common_Step_Def.getInstance().getDriver().findElement(passwordTextbox).sendKeys("hi123");
 	}
 	public String getAlert() {
-		return Common_Step_Def.driver.findElement(errorMsg).getText();
+		return Common_Step_Def.getInstance().getDriver().findElement(errorMsg).getText();
 
 
 	}

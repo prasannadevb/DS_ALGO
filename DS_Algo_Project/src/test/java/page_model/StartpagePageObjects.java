@@ -27,13 +27,13 @@ public class StartpagePageObjects {
 	By alertMsg		   = By.xpath("//div[@class='alert alert-primary']");
 
 	public void algo_Startpage()  {
-		Common_Step_Def.driver.findElement(GetStartedBtn).click();
+		Common_Step_Def.getInstance().getDriver().findElement(GetStartedBtn).click();
 	}
 	public void home_Startpage() {
-		Common_Step_Def.driver.findElement(dsGetStartBtn).click();
+		Common_Step_Def.getInstance().getDriver().findElement(dsGetStartBtn).click();
 	}
 	public String getAlert() {
-		return Common_Step_Def.driver.findElement(alertMsg).getText();
+		return Common_Step_Def.getInstance().getDriver().findElement(alertMsg).getText();
 
 
 	}

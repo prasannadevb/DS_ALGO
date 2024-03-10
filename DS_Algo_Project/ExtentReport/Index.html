@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 8, 2024 10:45:55 AM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 8, 2024 12:26:41 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -71,7 +76,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,31 +84,31 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@arrayhome</a><a class="dropdown-item" href="#">@question</a><a class="dropdown-item" href="#">@startpage</a><a class="dropdown-item" href="#">@question1</a><a class="dropdown-item" href="#">@Login</a><a class="dropdown-item" href="#">@register</a>
+<a class="dropdown-item" href="#">@question</a><a class="dropdown-item" href="#">@question1</a><a class="dropdown-item" href="#">@arrayhome</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Getting Started to DS_Algo Portal</p>
+            <p class="name">Testing the Array Page</p>
             <p class="text-sm">
-              <span>10:45:59 AM</span> / <span>00:00:01:187</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>12:26:42 PM</span> / <span>00:00:08:888</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Getting Started to DS_Algo Portal</h5>
-<span class='badge badge-success'>03.08.2024 10:45:59 AM</span>
-<span class='badge badge-danger'>03.08.2024 10:46:00 AM</span>
-<span class='badge badge-default'>00:00:01:187</span>
+<h5 class="test-status text-fail">Testing the Array Page</h5>
+<span class='badge badge-success'>03.08.2024 12:26:42 PM</span>
+<span class='badge badge-danger'>03.08.2024 12:26:51 PM</span>
+<span class='badge badge-default'>00:00:08:888</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -115,488 +120,44 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>This test is to verify the GetStarted button</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Verify user is able to navigate into DS_Algo Array’s Page</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Startpage.user_is_on_the_get_started_page()">
-                <span>Given user is on the get started page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Startpage.user_clicks_the_get_start_button()">
-                <span>When user clicks the get start button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Startpage.user_should_see_the_homepage()">
-                <span>Then user should see the homepage</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>User tries to click on something on homepage</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Startpage.user_is_on_the_home_page()">
-                <span>Given user is on the home page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Startpage.user_clicks_on_the_get_started_button_in_data_structure_introduction()">
-                <span>When user clicks on the get started button in data Structure introduction</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Startpage.you_are_not_logged_in_statement_is_displayed()">
-                <span>Then you are not logged in statement is displayed</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="10"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Registration process of the user</p>
-            <p class="text-sm">
-              <span>10:46:00 AM</span> / <span>00:00:03:317</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Registration process of the user</h5>
-<span class='badge badge-success'>03.08.2024 10:46:00 AM</span>
-<span class='badge badge-danger'>03.08.2024 10:46:03 AM</span>
-<span class='badge badge-default'>00:00:03:317</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="11"><span class="badge log pass-bg mr-2">Pass</span>This test is to verify the Registration page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.given_ther_user_is_on_the_home_page()">
-                <span>Given given the user is on the home page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_the_register_button()">
-                <span>When the user clicks the register button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_should_see_the_registration_page()">
-                <span>Then the user should see the registration page</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register without username and password</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_with_all_fields_empty()">
-                <span>When user clicks register button with all fields empty</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_error_appears_below_user_name_text_box(java.lang.String)">
-                <span>Then the error "please fill out this field" appears below user name text box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_user_name_with_other_fields_empty()">
-                <span>When user clicks register button after entering user name with other fields empty</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_error_appears_below_password_text_box(java.lang.String)">
-                <span>Then the error "please fill out this field" appears below password  text box</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="20"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.the_user_clicks_register_button_after_entering_user_name_and_password_with_password_confirmation_field_empty()">
-                <span>When the user clicks register button after entering user name and password with password confirmation field empty</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.the_error_appears_below_password_confirmation_text_box(java.lang.String)">
-                <span>Then the error "please fill out this field" appears below password confirmation text box</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="23"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_the_user_name_with_space_bar_char_other_than_digits()">
-                <span>When user clicks register button after entering the user name with space bar char other than digits</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_msg_after_entering_invalid_data()">
-                <span>Then user is not able to see error msg after entering invalid data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_redirected_to_empty_password_textbox()">
-                <span>And user redirected to empty password textbox</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="27"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_password_with_numeric_data()">
-                <span>When user clicks register button after entering password with numeric data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_message_after_entering_invalid_data()">
-                <span>Then user is not able to see error message after entering invalid data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_redirected_to_empty_password_confirmation_textbox()">
-                <span>And user redirected to empty password confirmation textbox</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="31"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_password_with_characters_less_than_eight()">
-                <span>When user clicks register button after entering password with characters less than eight</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_message_after_entering_invalid_data()">
-                <span>Then user is not able to see error message after entering invalid data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_redirected_to_register_button()">
-                <span>And user redirected to register button</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="35"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Register.user_clicks_register_button_after_entering_different_passwords_in_password_and_password_confirmation_fields()">
-                <span>When user clicks register button after entering different passwords in password and password confirmation fields</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_is_not_able_to_see_error_message_after_entering_invalid_data()">
-                <span>Then user is not able to see error message after entering invalid data</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Register.user_should_able_to_see_an_password_warning_message(java.lang.String)">
-                <span>And user should able to see an password warning message "password_mismatch:the two password fields didn't match"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="39"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-      </div>
-    </div>
-        <div class="scenario_outline collapse">
-            <div class="card-body l1">
-              <div class="card-header">
-                <div class="card-title outline-child">
-                  <div class="node" id="40"><span class="badge log pass-bg mr-2">Pass</span>The user tries to Register</div>
-                </div>
-              </div>
-              <div class="card-body mt-3 collapse">
-                  <div class="step pass-bg">
-                    <span>Given user is on the registration page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user clicks register button after entering valid "quantum@testers","numpyninja1234" and password confirmation related boxes</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then the user should be redirected to homepage of DSAlgo</span>
-      <div>
-      </div>
-                  </div>
-              </div>
-            </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="44"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Getting Started to Signin DS_Algo Portal</p>
-            <p class="text-sm">
-              <span>10:46:03 AM</span> / <span>00:00:02:150</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Getting Started to Signin DS_Algo Portal</h5>
-<span class='badge badge-success'>03.08.2024 10:46:03 AM</span>
-<span class='badge badge-danger'>03.08.2024 10:46:05 AM</span>
-<span class='badge badge-default'>00:00:02:150</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="45"><span class="badge log pass-bg mr-2">Pass</span>DS_Algo signin page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_introduction_page()">
-                <span>Given the user is on the DS_Algo introduction page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_clicks_on_sign_in_button()">
-                <span>When the user clicks on Sign_in button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_should_be_redirected_to_signin_page()">
-                <span>When the user should be redirected to signin page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_must_able_to_see_link_text_box(java.lang.String)">
-                <span>Then the user must able to see "Register" link text box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
                 <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_leaving_the_textbox_and_textbox_blank(java.lang.String,java.lang.String)">
-                <span>When The user clicks login button after leaving the "<username>" textbox and "<password>" textbox blank</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_error_message_appears_below_username_textbox(java.lang.String)">
-                <span>Then The error message "Please fill out this field." appears below Username textbox</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>DS_Algo signin page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_introduction_page()">
-                <span>Given the user is on the DS_Algo introduction page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_clicks_on_sign_in_button()">
-                <span>When the user clicks on Sign_in button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_should_be_redirected_to_signin_page()">
-                <span>When the user should be redirected to signin page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_must_able_to_see_link_text_box(java.lang.String)">
-                <span>Then the user must able to see "Register" link text box</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_the_textbox_and_leaves_textbox_blank(java.lang.String,java.lang.String)">
-                <span>When The user clicks login button after entering the "<username>" textbox and leaves  "<password>" textbox blank</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_error_message_appears_below_pwd_textbox(java.lang.String)">
-                <span>Then The error message "Please fill out this field." appears below Pwd textbox</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_invalid_username_and_invalid_password()">
-                <span>When the user clicks login button after entering invalid username and invalid password</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_should_able_to_see_an_error_message(java.lang.String)">
-                <span>Then the user should able to see an error message "Invalid username and password".</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
                 <span>When The user clicks login button after entering valid username and valid password</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
                 <span>Then The user should land in Data Structure Home Page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-          </div>
-        </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="64"
-          author=""
-          tag=""
-          device="">
-          <div class="test-detail">
-            <p class="name">Testing the Array Page</p>
-            <p class="text-sm">
-              <span>10:46:06 AM</span> / <span>00:00:19:324</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">Testing the Array Page</h5>
-<span class='badge badge-success'>03.08.2024 10:46:06 AM</span>
-<span class='badge badge-danger'>03.08.2024 10:46:25 AM</span>
-<span class='badge badge-default'>00:00:19:324</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=64</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>
-<div class="accordion mt-4">
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="65"><span class="badge log pass-bg mr-2">Pass</span>Verify user is able to navigate into DS_Algo Array’s Page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_home_page()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_home_page()">
                 <span>Given the user is on the Home Page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_the_get_started_button_below_the_array()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_the_get_started_button_below_the_array()">
                 <span>When the user clicks the get started button below the Array</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_the_page_whose_title_is_and_the_url_is(java.lang.String,java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_the_page_whose_title_is_and_the_url_is(java.lang.String,java.lang.String)">
                 <span>Then the user should be redirected to the page whose title is "Array" and the url is "https://dsportalapp.herokuapp.com/array/"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -605,200 +166,49 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="69"><span class="badge log pass-bg mr-2">Pass</span>Verify Arrays in Python link redirects to Arrays in Python page.</div>
+        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Verify the Python Editor when an valid code is given</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_array_page()">
-                <span>Given the user is on the Array page</span>
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_arrays_in_python_link()">
-                <span>When the user clicks Arrays in Python link</span>
-      <div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
-                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/arrays-in-python/" page</span>
-      <div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
       </div>
               </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Verify the Arrays using List menu navigates to Arrays Using List page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_arrays_in_python_page()">
-                <span>Given the user is on the Arrays in Python Page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_arrays_using_list_link()">
-                <span>When the user clicks Arrays Using List link</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
-                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/arrays-using-list/" page</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="77"><span class="badge log pass-bg mr-2">Pass</span>Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_arrays_using_list_page()">
-                <span>Given the user is on the Arrays Using List Page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_basic_operations_in_lists_link()">
-                <span>When the user clicks Basic Operations in Lists Link</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
-                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/" page</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="81"><span class="badge log pass-bg mr-2">Pass</span>Verify the Applications of Array navigates to Applications of Array page</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_basic_operations_in_lists_page()">
-                <span>Given the user is on the Basic Operations in Lists Page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_applications_of_array_link()">
-                <span>When the user clicks Applications of Array Link</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
-                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/applications-of-array/" page</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>Verify the Try here button is redirecting the user to the python editor.</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_arrays_in_python_page()">
-                <span>Given the user is on the Arrays in Python Page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_try_here_button()">
-                <span>When the user clicks Try Here button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_python_editor_with_the_url_as(java.lang.String)">
-                <span>Then the user should be redirected to Python Editor with the url as "https://dsportalapp.herokuapp.com/tryEditor"</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="89"><span class="badge log pass-bg mr-2">Pass</span>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_python_editor_page()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_python_editor_page()">
                 <span>Given the user is on the python editor page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_the_run_button_without_entering_any_code_in_the_editor()">
-                <span>When the user clicks the run button without entering any code in the editor</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.nothing_happens_to_the_page_and_no_error_message_is_displayed()">
-                <span>Then Nothing happens to the page and no error message is displayed</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_writes_an_invalid_code_in_editor_like(java.lang.String)">
-                <span>When the user writes an invalid code in Editor like "printf('bindu')"</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.clicks_the_run_button()">
-                <span>And clicks the run button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_able_to_see_an_error_message_in_alert_window()">
-                <span>Then the user should able to see an error message in alert window</span>
-      <div>
-      </div>
-              </div>
-          </div>
-        </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab">
-      <div class="card-title">
-        <div class="node" id="96"><span class="badge log pass-bg mr-2">Pass</span>Verify the Python Editor when an valid code is given</div>
-      </div>
-    </div>
-        <div class="collapse">
-          <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_python_editor_page()">
-                <span>Given the user is on the python editor page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_enters_a_valid_code_in_editor_like(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_enters_a_valid_code_in_editor_like(java.lang.String)">
                 <span>When the user enters a valid code in Editor like "print('bindu')"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.clicks_the_run_button()">
+              <div class="step skip-bg" title="stepdefinitions.Array.clicks_the_run_button()">
                 <span>And clicks the run button</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_able_to_see_output_in_the_console()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_able_to_see_output_in_the_console()">
                 <span>Then the user should able to see output in the console</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -807,24 +217,289 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="101"><span class="badge log pass-bg mr-2">Pass</span>Verify the practice questions page has all the 4 links mentioned.</div>
+        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>Verify Arrays in Python link redirects to Arrays in Python page.</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_applications_of_array_page1()">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_array_page()">
+                <span>Given the user is on the Array page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_arrays_in_python_link()">
+                <span>When the user clicks Arrays in Python link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
+                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/arrays-in-python/" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log fail-bg mr-2">Fail</span>Verify the Applications of Array navigates to Applications of Array page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_basic_operations_in_lists_page()">
+                <span>Given the user is on the Basic Operations in Lists Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_applications_of_array_link()">
+                <span>When the user clicks Applications of Array Link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
+                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/applications-of-array/" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log fail-bg mr-2">Fail</span>Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_arrays_using_list_page()">
+                <span>Given the user is on the Arrays Using List Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_basic_operations_in_lists_link()">
+                <span>When the user clicks Basic Operations in Lists Link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
+                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log fail-bg mr-2">Fail</span>Verify the Try here button is redirecting the user to the python editor.</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_arrays_in_python_page()">
+                <span>Given the user is on the Arrays in Python Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_try_here_button()">
+                <span>When the user clicks Try Here button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_python_editor_with_the_url_as(java.lang.String)">
+                <span>Then the user should be redirected to Python Editor with the url as "https://dsportalapp.herokuapp.com/tryEditor"</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log fail-bg mr-2">Fail</span>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_python_editor_page()">
+                <span>Given the user is on the python editor page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_the_run_button_without_entering_any_code_in_the_editor()">
+                <span>When the user clicks the run button without entering any code in the editor</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.nothing_happens_to_the_page_and_no_error_message_is_displayed()">
+                <span>Then Nothing happens to the page and no error message is displayed</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_writes_an_invalid_code_in_editor_like(java.lang.String)">
+                <span>When the user writes an invalid code in Editor like "printf('bindu')"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.clicks_the_run_button()">
+                <span>And clicks the run button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_able_to_see_an_error_message_in_alert_window()">
+                <span>Then the user should able to see an error message in alert window</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="10"><span class="badge log fail-bg mr-2">Fail</span>Verify the practice questions page has all the 4 links mentioned.</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_applications_of_array_page1()">
                 <span>Given the user is on the Applications Of Array Page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_practice_questions_link()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_practice_questions_link()">
                 <span>When the user clicks on the Practice Questions link</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_practice_page_having_links_like_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_practice_page_having_links_like_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)">
                 <span>Then the user should be redirected to practice page having links like "Search the array" ,"Max Consecutive Ones","Find Numbers with Even Number of Digits" and "Squares of a Sorted Array."</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -833,24 +508,44 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 1 page has the question, code editor, run and submit buttons</div>
+        <div class="node" id="12"><span class="badge log fail-bg mr-2">Fail</span>Verify Practice Question 1 page has the question, code editor, run and submit buttons</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
                 <span>Given the user is on the Practice page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_search_the_array_link()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_search_the_array_link()">
                 <span>When the user clicks search the array link</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
                 <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/question/1"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -859,24 +554,90 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="109"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 2 page has the question, code editor, run and submit buttons</div>
+        <div class="node" id="19"><span class="badge log fail-bg mr-2">Fail</span>Verify the Arrays using List menu navigates to Arrays Using List page</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
-                <span>Given the user is on the Practice page</span>
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_max_consecutive_ones_link()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_arrays_in_python_page()">
+                <span>Given the user is on the Arrays in Python Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_arrays_using_list_link()">
+                <span>When the user clicks Arrays Using List link</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_page(java.lang.String)">
+                <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/array/arrays-using-list/" page</span>
+      <div>Step skipped
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="60"><span class="badge log fail-bg mr-2">Fail</span>Verify Practice Question 2 page has the question, code editor, run and submit buttons</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
+                <span>Given the user is on the Practice page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_max_consecutive_ones_link()">
                 <span>When the user clicks max consecutive ones link</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
                 <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/question/2"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -885,24 +646,44 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="113"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 3 page has the question, code editor, run and submit buttons</div>
+        <div class="node" id="76"><span class="badge log fail-bg mr-2">Fail</span>Verify Practice Question 3 page has the question, code editor, run and submit buttons</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
-                <span>Given the user is on the Practice page</span>
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_find_numbers_with_even_number_of_digits_link()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
+                <span>Given the user is on the Practice page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_find_numbers_with_even_number_of_digits_link()">
                 <span>When the user clicks find numbers with even number of digits link</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
                 <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/question/3"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -911,24 +692,44 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="117"><span class="badge log pass-bg mr-2">Pass</span>Verify Practice Question 4 page has the question, code editor, run and submit buttons</div>
+        <div class="node" id="93"><span class="badge log fail-bg mr-2">Fail</span>Verify Practice Question 4 page has the question, code editor, run and submit buttons</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_page()">
                 <span>Given the user is on the Practice page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_squares_of_a_sorted_array()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_squares_of_a_sorted_array()">
                 <span>When the user clicks squares of a sorted array</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to(java.lang.String)">
                 <span>Then the user should be redirected to "https://dsportalapp.herokuapp.com/question/4"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -937,44 +738,64 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="121"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in search the array link</div>
+        <div class="node" id="102"><span class="badge log fail-bg mr-2">Fail</span>verify submitting the practice question with no code in search the array link</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
-                <span>Given the user is on the practice question page</span>
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_search_the_array_link()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
+                <span>Given the user is on the practice question page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_search_the_array_link()">
                 <span>When the user clicks search the array link</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_directed_to_search_the_array_question_page()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_directed_to_search_the_array_question_page()">
                 <span>Then the user should be directed to search the array question page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
                 <span>When the user clicks on the run button without entering any code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
                 <span>Then the user should see an alert contains "bad input on line 2"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code()">
                 <span>When the user clicks on the submit button without entering any code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
                 <span>Then the user should see "Error occurred during submission" message</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -983,39 +804,59 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="129"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in max consecutive ones</div>
+        <div class="node" id="104"><span class="badge log fail-bg mr-2">Fail</span>verify submitting the practice question with no code in max consecutive ones</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
-                <span>Given the user is on the practice question page</span>
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_max_consecutive_ones()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
+                <span>Given the user is on the practice question page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_max_consecutive_ones()">
                 <span>When the user clicks max consecutive ones</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
                 <span>When the user clicks on the run button without entering any code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
                 <span>Then the user should see an alert contains "bad input on line 2"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code()">
                 <span>When the user clicks on the submit button without entering any code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
                 <span>Then the user should see "Error occurred during submission" message</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -1024,39 +865,59 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="136"><span class="badge log pass-bg mr-2">Pass</span>verify running the practice question with no code in find numbers with even number of digits</div>
+        <div class="node" id="106"><span class="badge log fail-bg mr-2">Fail</span>verify running the practice question with no code in find numbers with even number of digits</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
-                <span>Given the user is on the practice question page</span>
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_find_numbers_with_even_number_of_digits()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
+                <span>Given the user is on the practice question page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_find_numbers_with_even_number_of_digits()">
                 <span>When the user clicks find numbers with even number of digits</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
                 <span>When the user clicks on the run button without entering any code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
                 <span>Then the user should see an alert contains "bad input on line 2"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code()">
                 <span>When the user clicks on the submit button without entering any code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
                 <span>Then the user should see "Error occurred during submission" message</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -1065,44 +926,64 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="143"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with no code in squares of a sorted array</div>
+        <div class="node" id="108"><span class="badge log fail-bg mr-2">Fail</span>verify submitting the practice question with no code in squares of a sorted array</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
-                <span>Given the user is on the practice question page</span>
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
       <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_squares_in_sorted_array()">
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
+                <span>Given the user is on the practice question page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_squares_in_sorted_array()">
                 <span>When the user clicks squares in sorted array</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_run_button_without_entering_any_code()">
                 <span>When the user clicks on the run button without entering any code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_an_alert_contains(java.lang.String)">
                 <span>Then the user should see an alert contains "bad input on line 2"</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code_in_squares_of_a_sorted_array()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_on_the_submit_button_without_entering_any_code_in_squares_of_a_sorted_array()">
                 <span>When the user clicks on the submit button without entering any code in squares of a sorted array</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_message(java.lang.String)">
                 <span>Then the user should see "No tests were collected" message</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_the_homepage()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_redirected_to_the_homepage()">
                 <span>Then the user should be redirected to the homepage</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -1111,34 +992,54 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="151"><span class="badge log pass-bg mr-2">Pass</span>verify submitting the practice question with valid code in search the array link</div>
+        <div class="node" id="110"><span class="badge log fail-bg mr-2">Fail</span>verify submitting the practice question with valid code in search the array link</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
+              <div class="step fail-bg" title="stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page()">
+                <span>Given the user is on the DS_Algo signin page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.get(String)" because the return value of "stepdefinitions.Common_Step_Def.getDriver()" is null
+	at stepdefinitions.Login.the_user_is_on_the_ds_algo_signin_page(Login.java:49)
+	at ✽.the user is on the DS_Algo signin page(file:///C:/Users/bindu/git/DS_ALGO/DS_Algo_Project/src/test/resources/features/4Array.feature:6)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_clicks_login_button_after_entering_valid_username_and_valid_password()">
+                <span>When The user clicks login button after entering valid username and valid password</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Login.the_user_should_land_in_data_structure_home_page()">
+                <span>Then The user should land in Data Structure Home Page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_is_on_the_practice_question_page()">
                 <span>Given the user is on the practice question page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_clicks_search_the_array_link()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_clicks_search_the_array_link()">
                 <span>When the user clicks search the array link</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_be_directed_to_search_the_array_question_page()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_be_directed_to_search_the_array_question_page()">
                 <span>Then the user should be directed to search the array question page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_gives_a_valid_code()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_gives_a_valid_code()">
                 <span>When the user gives a valid code</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefinitions.Array.the_user_should_see_the_output_in_console()">
+              <div class="step skip-bg" title="stepdefinitions.Array.the_user_should_see_the_output_in_console()">
                 <span>Then the user should see the output in console</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -1156,26 +1057,26 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>18</span>
 </span>
-<p class="name">@arrayhome</p>
-<p class="duration text-sm">1 tests</p>
+<p class="name">java.lang.NullPointerException</p>
+<p class="duration text-sm">18 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@arrayhome</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>java.lang.NullPointerException</h4>
+<span status="fail" class='badge log badge-danger'>18 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1186,13 +1087,183 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:06 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
 <td>
-<a href="#" class="linked" test-id='64' id='65'>Verify user is able to navigate into DS_Algo Array’s Page</a>
+<a href="#" class="linked" test-id='1' id='22'>Given the user is on the DS_Algo signin page</a>
 <div class="">
-<span class="badge badge-default">Testing the Array Page.Verify user is able to navigate into DS_Algo Array’s Page</span>
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 1 page has the question, code editor, run and submit buttons.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='29'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify Arrays in Python link redirects to Arrays in Python page..Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='36'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify user is able to navigate into DS_Algo Array’s Page.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='43'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the Arrays using List menu navigates to Arrays Using List page.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='50'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='62'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the Try here button is redirecting the user to the python editor..Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='69'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='78'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the Python Editor when an valid code is given.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='86'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the practice questions page has all the 4 links mentioned..Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='95'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify the Applications of Array navigates to Applications of Array page.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='112'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 4 page has the question, code editor, run and submit buttons.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='119'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 2 page has the question, code editor, run and submit buttons.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='126'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 3 page has the question, code editor, run and submit buttons.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='133'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in search the array link.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='144'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify running the practice question with no code in find numbers with even number of digits.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='154'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in max consecutive ones.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='164'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in squares of a sorted array.Given the user is on the DS_Algo signin page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='168'>Given the user is on the DS_Algo signin page</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with valid code in search the array link.Given the user is on the DS_Algo signin page</span>
 </div>
 </td>
 </tr>
@@ -1200,10 +1271,26 @@
 </table>
 </div>
 </li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">3</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>3</span>
 </span>
 <p class="name">@question</p>
 <p class="duration text-sm">3 tests</p>
@@ -1211,7 +1298,7 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@question</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1222,31 +1309,31 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:18 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
 <td>
-<a href="#" class="linked" test-id='64' id='129'>verify submitting the practice question with no code in max consecutive ones</a>
+<a href="#" class="linked" test-id='1' id='104'>verify submitting the practice question with no code in max consecutive ones</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in max consecutive ones</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:19 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
 <td>
-<a href="#" class="linked" test-id='64' id='136'>verify running the practice question with no code in find numbers with even number of digits</a>
+<a href="#" class="linked" test-id='1' id='106'>verify running the practice question with no code in find numbers with even number of digits</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify running the practice question with no code in find numbers with even number of digits</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:21 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
 <td>
-<a href="#" class="linked" test-id='64' id='143'>verify submitting the practice question with no code in squares of a sorted array</a>
+<a href="#" class="linked" test-id='1' id='108'>verify submitting the practice question with no code in squares of a sorted array</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in squares of a sorted array</span>
 </div>
@@ -1259,53 +1346,7 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
-</span>
-<p class="name">@startpage</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@startpage</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:45:59 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='2'>This test is to verify the GetStarted button</a>
-<div class="">
-<span class="badge badge-default">Getting Started to DS_Algo Portal.This test is to verify the GetStarted button</span>
-</div>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:45:59 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='6'>User tries to click on something on homepage</a>
-<div class="">
-<span class="badge badge-default">Getting Started to DS_Algo Portal.User tries to click on something on homepage</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
 <p class="name">@question1</p>
 <p class="duration text-sm">1 tests</p>
@@ -1313,7 +1354,7 @@
 <div class="test-contents d-none">
 <div class="info">
 <h4>@question1</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1324,11 +1365,11 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:23 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
 <td>
-<a href="#" class="linked" test-id='64' id='151'>verify submitting the practice question with valid code in search the array link</a>
+<a href="#" class="linked" test-id='1' id='110'>verify submitting the practice question with valid code in search the array link</a>
 <div class="">
 <span class="badge badge-default">Testing the Array Page.verify submitting the practice question with valid code in search the array link</span>
 </div>
@@ -1341,15 +1382,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>18</span>
 </span>
-<p class="name">@Login</p>
-<p class="duration text-sm">2 tests</p>
+<p class="name">@arrayhome</p>
+<p class="duration text-sm">18 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@Login</h4>
-<span status="pass" class='badge log pass-bg'>2 passed</span>
+<h4>@arrayhome</h4>
+<span status="fail" class='badge log badge-danger'>18 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1360,129 +1401,183 @@
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:03 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='44' id='45'>DS_Algo signin page</a>
+<a href="#" class="linked" test-id='1' id='2'>Verify user is able to navigate into DS_Algo Array’s Page</a>
 <div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.DS_Algo signin page</span>
+<span class="badge badge-default">Testing the Array Page.Verify user is able to navigate into DS_Algo Array’s Page</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:04 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='44' id='53'>DS_Algo signin page</a>
+<a href="#" class="linked" test-id='1' id='3'>Verify the Python Editor when an valid code is given</a>
 <div class="">
-<span class="badge badge-default">Getting Started to Signin DS_Algo Portal.DS_Algo signin page</span>
+<span class="badge badge-default">Testing the Array Page.Verify the Python Editor when an valid code is given</span>
 </div>
 </td>
 </tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>8</span>
-</span>
-<p class="name">@register</p>
-<p class="duration text-sm">8 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>@register</h4>
-<span status="pass" class='badge log pass-bg'>8 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:00 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='11'>This test is to verify the Registration page</a>
+<a href="#" class="linked" test-id='1' id='4'>Verify Arrays in Python link redirects to Arrays in Python page.</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.This test is to verify the Registration page</span>
+<span class="badge badge-default">Testing the Array Page.Verify Arrays in Python link redirects to Arrays in Python page.</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:00 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='15'>The user tries to Register without username and password</a>
+<a href="#" class="linked" test-id='1' id='6'>Verify the Applications of Array navigates to Applications of Array page</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register without username and password</span>
+<span class="badge badge-default">Testing the Array Page.Verify the Applications of Array navigates to Applications of Array page</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:01 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='20'>The user tries to Register</a>
+<a href="#" class="linked" test-id='1' id='7'>Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+<span class="badge badge-default">Testing the Array Page.Verify the Basic Operations in Lists menu navigates to Basic Operations in Lists page</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:01 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='23'>The user tries to Register</a>
+<a href="#" class="linked" test-id='1' id='8'>Verify the Try here button is redirecting the user to the python editor.</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+<span class="badge badge-default">Testing the Array Page.Verify the Try here button is redirecting the user to the python editor.</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:02 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='27'>The user tries to Register</a>
+<a href="#" class="linked" test-id='1' id='9'>Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+<span class="badge badge-default">Testing the Array Page.Verify the Python Editor is throwing error when an invalid code is given, compiles the program and produces a alert window</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:02 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='31'>The user tries to Register</a>
+<a href="#" class="linked" test-id='1' id='10'>Verify the practice questions page has all the 4 links mentioned.</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+<span class="badge badge-default">Testing the Array Page.Verify the practice questions page has all the 4 links mentioned.</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:02 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='35'>The user tries to Register</a>
+<a href="#" class="linked" test-id='1' id='12'>Verify Practice Question 1 page has the question, code editor, run and submit buttons</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 1 page has the question, code editor, run and submit buttons</span>
 </div>
 </td>
 </tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>10:46:03 AM</td>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='10' id='40'>The user tries to Register</a>
+<a href="#" class="linked" test-id='1' id='19'>Verify the Arrays using List menu navigates to Arrays Using List page</a>
 <div class="">
-<span class="badge badge-default">Registration process of the user.The user tries to Register</span>
+<span class="badge badge-default">Testing the Array Page.Verify the Arrays using List menu navigates to Arrays Using List page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:46 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='60'>Verify Practice Question 2 page has the question, code editor, run and submit buttons</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 2 page has the question, code editor, run and submit buttons</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='76'>Verify Practice Question 3 page has the question, code editor, run and submit buttons</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 3 page has the question, code editor, run and submit buttons</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>Verify Practice Question 4 page has the question, code editor, run and submit buttons</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.Verify Practice Question 4 page has the question, code editor, run and submit buttons</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='102'>verify submitting the practice question with no code in search the array link</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in search the array link</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='104'>verify submitting the practice question with no code in max consecutive ones</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in max consecutive ones</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='106'>verify running the practice question with no code in find numbers with even number of digits</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify running the practice question with no code in find numbers with even number of digits</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='108'>verify submitting the practice question with no code in squares of a sorted array</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with no code in squares of a sorted array</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>12:26:47 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='110'>verify submitting the practice question with valid code in search the array link</a>
+<div class="">
+<span class="badge badge-default">Testing the Array Page.verify submitting the practice question with valid code in search the array link</span>
 </div>
 </td>
 </tr>
@@ -1503,25 +1598,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 8, 2024 10:45:55 AM</h3>
+<h3>Mar 8, 2024 12:26:41 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 8, 2024 10:46:25 AM</h3>
+<h3>Mar 8, 2024 12:26:51 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>4</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -1537,12 +1632,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>4</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='100%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -1560,9 +1655,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>30</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='100%'><b>18</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -1580,10 +1675,10 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>121</b> steps passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
-<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='14%'><b>18</b> steps failed,
+<b>110</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -1599,7 +1694,7 @@
 </div></div>
 <script>
 var timeline = {
-"Getting Started to DS_Algo Portal":1.187,"Registration process of the user":3.317,"Getting Started to Signin DS_Algo Portal":2.15,"Testing the Array Page":19.324
+"Testing the Array Page":8.888
 };
 </script>
 <div class="row">
@@ -1609,52 +1704,28 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@arrayhome</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
 <td>@question</td>
+<td>0</td>
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@startpage</td>
-<td>2</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 <tr>
 <td>@question1</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 <tr>
-<td>@Login</td>
-<td>2</td>
+<td>@arrayhome</td>
+<td>0</td>
+<td>18</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>@register</td>
-<td>8</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>0%</td>
 </tr>
 </tbody>
 </table></div>
@@ -1665,21 +1736,21 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 4,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 30,
-failChild: 0,
+passChild: 0,
+failChild: 18,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 121,
-failGrandChild: 0,
+passGrandChild: 0,
+failGrandChild: 18,
 warningGrandChild: 0,
-skipGrandChild: 0,
+skipGrandChild: 110,
 infoGrandChild: 0,
 eventsCount: 5,
 };

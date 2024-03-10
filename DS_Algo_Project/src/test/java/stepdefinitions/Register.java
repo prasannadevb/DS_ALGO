@@ -16,18 +16,18 @@ import utilities.Logger_Load;
 public class Register {
 	@Given("given the user is on the home page")
 	public void given_ther_user_is_on_the_home_page() {
-	   Common_Step_Def.driver.get(Constants.HOMEPAGE);
+	   Common_Step_Def.getInstance().getDriver().get(Constants.HOMEPAGE);
 	}
 
 	@When("the user clicks the register button")
-	public void the_user_clicks_the_register_button() throws InterruptedException {
+	public void the_user_clicks_the_register_button()  {
 		RegisterPageObjects.getInstance().clickRegisterLink();
 	    
 	}
 
 	@Then("the user should see the registration page")
 	public void the_user_should_see_the_registration_page() {
-	   String currentURL =Common_Step_Def.driver.getCurrentUrl();
+	   String currentURL =Common_Step_Def.getInstance().getDriver().getCurrentUrl();
 	   String expectedURL = "https://dsportalapp.herokuapp.com/register";
 	   Assert.assertEquals(currentURL, expectedURL);
 	   System.out.println("User is on the registration page");
@@ -45,7 +45,7 @@ public class Register {
 
 	@Then("the error {string} appears below user name text box")
 	public void the_error_appears_below_user_name_text_box(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = Common_Step_Def.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	}
@@ -58,7 +58,7 @@ public class Register {
 
 	@Then("the error {string} appears below password  text box")
 	public void the_error_appears_below_password_text_box(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = Common_Step_Def.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	    
@@ -77,7 +77,7 @@ public class Register {
 
 	@Then("the error {string} appears below password confirmation text box")
 	public void the_error_appears_below_password_confirmation_text_box(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = Common_Step_Def.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	}

@@ -25,7 +25,7 @@ public class HomePageObjects {
 	
 	public boolean isSignoutBtnDisplayed() {
 		
-	boolean isSignoutBtnDisplayed = Common_Step_Def.driver.findElement(signoutBtn).isDisplayed();
+	boolean isSignoutBtnDisplayed = Common_Step_Def.getInstance().getDriver().findElement(signoutBtn).isDisplayed();
 	return isSignoutBtnDisplayed;
 	}
 	
@@ -34,6 +34,6 @@ public class HomePageObjects {
 		System.out.println("clicking the get started button");
 		Thread.sleep(5000);
 		System.out.println("Wait over");
-		Common_Step_Def.driver.findElement(arraygetStartedBtn).click();
+		Common_Step_Def.getInstance().getDriver().findElement(arraygetStartedBtn).click();
 	}
 }

@@ -17,7 +17,7 @@ public class Login {
 
 	@Given("the user is on the DS_Algo introduction page")
 	public void the_user_is_on_the_ds_algo_introduction_page() {
-	    Common_Step_Def.driver.get(Constants.HOMEPAGE);
+	    Common_Step_Def.getInstance().getDriver().get(Constants.HOMEPAGE);
 	}
 
 	@When("the user clicks on Sign_in button")
@@ -27,7 +27,7 @@ public class Login {
 
 	@When("the user should be redirected to signin page")
 	public void the_user_should_be_redirected_to_signin_page() {
-		   String currentURL =Common_Step_Def.driver.getCurrentUrl();
+		   String currentURL =Common_Step_Def.getInstance().getDriver().getCurrentUrl();
 		   String expectedURL = "https://dsportalapp.herokuapp.com/login";
 		   Assert.assertEquals(currentURL, expectedURL);
 		   System.out.println("User is on the signin page");
@@ -36,7 +36,7 @@ public class Login {
 
 	@Then("the user must able to see {string} link text box")
 	public void the_user_must_able_to_see_link_text_box(String string) {
-		 boolean status = Common_Step_Def.driver.findElement(By.linkText("Register!")).isDisplayed();{
+		 boolean status = Common_Step_Def.getInstance().getDriver().findElement(By.linkText("Register!")).isDisplayed();{
 			    if(status)
 		    {
 			    	Logger_Load.info("User is in login page");
@@ -46,7 +46,7 @@ public class Login {
 
 	@Given("the user is on the DS_Algo signin page")
 	public void the_user_is_on_the_ds_algo_signin_page() {
-	    
+	    Common_Step_Def.getInstance().getDriver().get(Constants.LOGINPAGE);
 	}
 
 	@When("The user clicks login button after leaving the {string} textbox and {string} textbox blank")
@@ -56,7 +56,7 @@ public class Login {
 
 	@Then("The error message {string} appears below Username textbox")
 	public void the_error_message_appears_below_username_textbox(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = Common_Step_Def.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	    
@@ -71,7 +71,7 @@ public class Login {
 
 	@Then("The error message {string} appears below Pwd textbox")
 	public void the_error_message_appears_below_pwd_textbox(String string) {
-		WebElement activeElement = Common_Step_Def.driver.switchTo().activeElement();
+		WebElement activeElement = Common_Step_Def.getInstance().getDriver().switchTo().activeElement();
 		String messageStr = activeElement.getAttribute("validationMessage");
 		System.out.println("Actual message appeared on screen: " + messageStr);
 	}
@@ -101,7 +101,7 @@ public class Login {
 	}
 	@Then("The user should land in Data Structure Home Page")
 	public void the_user_should_land_in_data_structure_home_page() {
-		String currentUrl = Common_Step_Def.driver.getCurrentUrl();
+		String currentUrl = Common_Step_Def.getInstance().getDriver().getCurrentUrl();
 		String expectedUrl ="https://dsportalapp.herokuapp.com/home";
 		Assert.assertEquals(currentUrl, expectedUrl);
 		System.out.println("User is on the Data Structure hompage");
