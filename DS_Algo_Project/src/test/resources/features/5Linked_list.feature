@@ -1,9 +1,5 @@
 @Linkedlist
  Feature: Getting Started to Signin DS_Algo Portal 
-Background:
-Given user is on login page
-When the users enters login credentials 
-And user clicks on login button
 
   Scenario Outline: To check Linked List page functionality
     

@@ -1,10 +1,6 @@
 @Stack
 
 Feature: Stack page functionality
-Background:
- Given the user is on the sign in page
- When the user enters login credentials
- Then the user navigates to home page
 
   
   Scenario Outline: To check Stack page functionality-operations in stack

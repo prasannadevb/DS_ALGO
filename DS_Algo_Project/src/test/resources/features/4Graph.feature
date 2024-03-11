@@ -1,10 +1,6 @@
 @Graph
 Feature: To test graph page
 
-Background: User is logged in
-Given user is navigated to login page
-When user must enter the username and password
-Then user should be logged in
 
 Scenario Outline: getting started to graph page
 Given user clicks the get started button below the graph 

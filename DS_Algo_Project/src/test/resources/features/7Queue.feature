@@ -1,12 +1,7 @@
 @Queue
 
 Feature: Data Structure Home page
- Background:  User is Logged In
-	Given user navigates to the login page
-	When user enters username and password
-	Then user must be logged in
-
-@Queue1
+ 
 Scenario Outline: Clicking the get started in Queue
 
 Given the user is on the DS_Algo Home Page

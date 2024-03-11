@@ -1,10 +1,7 @@
 
 @DS_Introductionpage
 Feature: Data Structure Home page - DS_Introduction
- Background:  User is Logged In
-	Given I navigate to the login page
-	When I submit username and password
-	Then I should be logged in 
+ 
 	 
  Scenario Outline: Home Page
    Given the user is on the DS Algo Home Page
