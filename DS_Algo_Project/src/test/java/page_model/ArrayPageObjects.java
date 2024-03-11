@@ -28,7 +28,7 @@ private static ArrayPageObjects arrayPageObjects;
    
 	By arraysinpythonBtn    = By.xpath("//a[@href='arrays-in-python']");
 	By tryhereBtn           = By.partialLinkText("Try here");
-	By editorbox            = By.xpath("//textarea[@tabindex='0']");
+	By editorbox            = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
 	By runBtn               = By.xpath("//button[@type='button']");
 	By console              = By.xpath("//pre[@id='output']");
 	By arraysusinglist      = By.xpath("//a[contains(text(),'Arrays Using List')]");

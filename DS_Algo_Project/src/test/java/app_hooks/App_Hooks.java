@@ -12,43 +12,40 @@ import utilities.Common_Utils;
 public class App_Hooks {
 
 	private static App_Hooks appHooks;
-	 private static final ThreadLocal<WebDriver> drivers = new ThreadLocal<>();
-	 
-	 public static App_Hooks getInstance() {
-			if(appHooks==null) {
-				appHooks= new App_Hooks();
-			}
-			return appHooks;
+	private static final ThreadLocal<WebDriver> drivers = new ThreadLocal<>();
 
+	public static App_Hooks getInstance() {
+		if(appHooks==null) {
+			appHooks= new App_Hooks();
 		}
-	 
-	 public WebDriver getDriver() {
-		    return drivers.get();
-		  }
-	 
-	 @Before
-	  public void setUp() {
-	    WebDriver driver = Driver_Manager.getInstance().createDriver(Constants.BROWSER);
-	    drivers.set(driver);
-	    driver.manage().window().maximize();	  
-	    Common_Step_Def.getInstance().login();
-	  }
+		return appHooks;
 
-	  @After
-	  public void tearDown() {
-	    getDriver().quit();
-	    drivers.remove();
-	  }
-	  
-	  @BeforeAll
-	  public static void beforeAll() {
-		  Common_Utils.getInstance().loadProperties();
-		  System.out.println(System.currentTimeMillis());
-	  }
-	  
-	  @AfterAll
-	  public static void afterAll() {
-		  System.out.println(System.currentTimeMillis());
-	  }
-	
+	}
+
+	public WebDriver getDriver() {
+		return drivers.get();
+	}
+
+	@Before
+	public void setUp() {
+		WebDriver driver = Driver_Manager.getInstance().createDriver(Constants.BROWSER);
+		drivers.set(driver);
+		driver.manage().window().maximize();	  
+		Common_Step_Def.getInstance().login();
+	}
+
+	@After
+	public void tearDown() {
+		getDriver().quit();
+		drivers.remove();
+	}
+
+	@BeforeAll
+	public static void beforeAll() {
+		Common_Utils.getInstance().loadProperties();
+
+	}
+
+
+
 }

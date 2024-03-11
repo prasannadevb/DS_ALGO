@@ -2,6 +2,12 @@ package constants;
 
 public class Constants {
 	
+	public static  CharSequence PYTHONV = null;
+
+	public static  CharSequence PYTHONI = null;
+
+	public static String TREEPAGE = null;
+
 	public static String URL;
 
 	public static String BROWSER;

@@ -25,7 +25,6 @@ import utilities.Common_Utils;
 public class Array {
 
 
-
 	@Given("the user is on the Home Page")
 	public void the_user_is_on_the_home_page() {
 		System.out.println("in the home page");
@@ -281,12 +280,17 @@ public class Array {
 		ArrayPageObjects.getInstance().clickSubmitBtn();
 	}
 
-	@Then("user should see a {string} message")
+	@Then("the user should see {string} message in sorted array")
 	public void user_should_see_message(String expected)  {
-		
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		String actual = null;
 		actual = ArrayPageObjects.getInstance().getOutput();
-		Assert.assertEquals(expected,actual);
+		Assert.assertEquals(actual,expected);
 	}
 	@Then("the user should be redirected to the homepage")
 	public void the_user_should_be_redirected_to_the_homepage() {

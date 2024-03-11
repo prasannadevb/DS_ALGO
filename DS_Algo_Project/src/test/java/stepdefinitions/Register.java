@@ -112,8 +112,8 @@ public class Register {
 		Logger_Load.error("No error message");
 	}
 
-	@Then("user redirected to empty password confirmation textbox")
-	public void user_redirected_to_empty_password_confirmation_textbox() {
+	@Then("user should see an empty password confirmationÂ textbox")
+	public void user_should_see_an_empty_password_confirmation_textbox() {
 	    
 	}
 
@@ -156,7 +156,7 @@ public class Register {
 
 	@Then("the user should be redirected to homepage of DSAlgo")
 	public void the_user_should_be_redirected_to_homepage_of_ds_algo() {
-	    System.out.println("User redirected to dsALgoHome page");
+	    System.out.println("User redirected to dsALgoHomeï¿½page");
 	}
 
 

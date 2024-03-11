@@ -65,6 +65,10 @@ public class Common_Utils {
 				Constants.PRACTICEQUESTION2= properties.getProperty("PRACTICEQUESTION2_URL");
 				Constants.PRACTICEQUESTION3= properties.getProperty("PRACTICEQUESTION3_URL");
 				Constants.PRACTICEQUESTION4= properties.getProperty("PRACTICEQUESTION4_URL");
+				Constants.TREEPAGE =properties.getProperty("TREEPAGE_URL");
+				Constants.PYTHONV= properties.getProperty("TEXT_EDITOR");
+				Constants.PYTHONI= properties.getProperty("TEXT_EDITORI");
+
 
 			}
 

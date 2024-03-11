@@ -20,6 +20,7 @@ public class Common_Step_Def {
 		App_Hooks.getInstance().getDriver().get(Constants.LOGINPAGE);
 		LoginPageObjects.getInstance().enterUsername();
 		LoginPageObjects.getInstance().enterPassword();
+		LoginPageObjects.getInstance().clickLogin();
 		
 	}
 	

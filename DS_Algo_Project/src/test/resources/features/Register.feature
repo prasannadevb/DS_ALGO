@@ -31,7 +31,7 @@ Feature: Registration process of the user
     
     When user clicks register button after entering password with numeric data
     Then user is not able to see error message after entering invalid data
-    And user redirected to empty password confirmation textbox
+    And user should see an empty password confirmation textbox
     
     Scenario: The user tries to Register
     

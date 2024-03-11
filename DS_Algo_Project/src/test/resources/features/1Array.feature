@@ -1,10 +1,6 @@
 @array
 Feature: Testing the Array Page
-	Background:
-	 Given the user is on the DS_Algo signin page
-		When The user clicks login button after entering valid username and valid password
-    Then The user should be redirected to Data Structure HomePage
-
+	
 @scenario1
   Scenario: Verify user is able to navigate into DS_Algo Array Page
     Given the user is on the Home Page
@@ -83,7 +79,7 @@ Feature: Testing the Array Page
 	When  the user clicks search the array link
 	Then  the user should be directed to search the array question page
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad input on line 2"
+	Then the user should see an alert contains "bad input on line 2"
 	When  the user clicks on the submit button without entering any code
 	Then  the user should see "Error occurred during submission" message
 	
@@ -92,7 +88,7 @@ Feature: Testing the Array Page
 	Given the user is on the practice question page
 	When  the user clicks max consecutive ones
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad input on line 2"
+	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code
 	Then the user should see "Error occurred during submission" message
 	
@@ -101,7 +97,7 @@ Feature: Testing the Array Page
 	Given the user is on the practice question page
 	When  the user clicks find numbers with even number of digits
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad inuton lne 2"
+	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code
 	Then the user should see "Error occurred during submission" message
 	
@@ -110,9 +106,9 @@ Feature: Testing the Array Page
 	Given the user is on the practice question page
 	When  the user clicks squares in sorted array
 	When the user clicks on the run button without entering any code
-	Then the user should see an alert contains "bad inuton lne 2"
+	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code in squares of a sorted array
-	Then the user should see "No tests were collected" message
+	Then the user should see "No tests were collected" message in sorted array
 	Then the user should be redirected to the homepage
 	
 	@question1
