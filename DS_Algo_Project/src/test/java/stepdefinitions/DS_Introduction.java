@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import app_hooks.App_Hooks;
+import constants.Constants;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,57 +26,17 @@ import utilities.ExcelReader;
 public class DS_Introduction {
 	
 	
-		
-		public static WebDriver driver;
-		
-		By signinLink = By.xpath("//a[text()='Sign in']");
-		By usernameTextbox = By.xpath("//input[@name='username']");
-		By passwordTextbox =By.xpath("//input[@name='password']");
-		By loginbtn = By.xpath("//input[@value='Login']");
-		
-		String URL = "https://dsportalapp.herokuapp.com/login";
-		
-		By Getstarted_btn = By.xpath("//a[@href='data-structures-introduction']");
-		By Time_cmp = By.xpath("//a[@href='time-complexity']");
-		By try_here = By.xpath("//a[@class='btn btn-info']");
-		By textbox = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
-		By run = By.xpath("//button[text() = \"Run\"]");
-		By practice_qa = By.xpath("//a[@class = \"list-group-item list-group-item-light text-info\"]");
-		By empty_pp = By.xpath("//html[@lang = \"en\"]");
-		By signoutbtn = By.xpath("//a[text()='Sign out']");
-		
-		@Given("I navigate to the login page")
-		public void i_navigate_to_the_login_page() {
-			
-			 App_Hooks.getInstance().getDriver().get(URL);
-			 
-		}
-	   @When("I submit username and password")
-		public void i_submit_username_and_password() {
-		   
-			App_Hooks.getInstance().getDriver().findElement(usernameTextbox).sendKeys("quantum@testers");
-			App_Hooks.getInstance().getDriver().findElement(passwordTextbox).sendKeys("numpyninja1234");
-			}
-
-		@Then("I should be logged in")
-		public void i_should_be_logged_in() {
-			
-			App_Hooks.getInstance().getDriver().findElement(loginbtn).click();
-		   
-		}
-
-
 		@Given("the user is on the DS Algo Home Page")
 		public void the_user_is_on_the_ds_algo_home_page() {
 		   
-			//App_Hooks.getInstance().getDriver().get(URL);
+			App_Hooks.getInstance().getDriver().get(Constants.HOMEPAGE);
 			
 		}
 
 		@When("the user clicks  Get Started button below the Data structures-Introduction")
 		public void the_user_clicks_get_started_button_below_the_data_structures_introduction() {
 		    
-			 App_Hooks.getInstance().getDriver().findElement(Getstarted_btn).click();
+			 DS_IntroductionPageObjects.getInstance().clickgetstarted();
 		}
 
 		@Then("The user should land in {string} page")
@@ -89,7 +50,7 @@ public class DS_Introduction {
 		@When("the user clicks Time Complexity link")
 		public void the_user_clicks_time_complexity_link() throws InterruptedException {
 		    
-			 App_Hooks.getInstance().getDriver().findElement(Time_cmp ).click();
+			DS_IntroductionPageObjects.getInstance().clicktimecompilicity();
 			
 		}
 
@@ -102,12 +63,13 @@ public class DS_Introduction {
 		public void the_user_clicks_try_here_button_of_time_complexity_page() {
 			
 			
-			 App_Hooks.getInstance().getDriver().findElement(try_here).click();
+			 DS_IntroductionPageObjects.getInstance().clicktryhere();
 		}
 
 		@Then("The user should be redirected to a page having an Python Editor with a url {string}")
 		public void the_user_should_be_redirected_to_a_page_having_an_python_editor_with_a_url(String string) {
 		  
+			
 		}
 
 		@Given("The user is on the Python Editor page")
@@ -116,16 +78,6 @@ public class DS_Introduction {
 			
 		}
 
-//		@When("the user writes invalid code with {string} and rownumber<RowNumber>")
-//		public void the_user_writes_invalid_code_with_print_hai_and_expected_output(String sheetName , int rowNumber) throws InvalidFormatException, IOException {
-//			ExcelReader reader = new ExcelReader();
-//			String excelPath = System.getProperty("user.dir") + "\\src\\test\\java\\utilities\\pythonexceldata.xlsx";
-//			System.out.println(excelPath);
-//			List<Map<String, String>> testdata = reader.getData(excelPath, sheetName);
-//			String text = testdata.get(rowNumber).get("Input");
-//			DS_IntroductionPageObjects.getInstance().invalidCode(text);
-//			
-//		}
 
 		
 		@When("user adds invalid code with {string} and rownumber {int}")
@@ -143,14 +95,14 @@ public class DS_Introduction {
 		@When("Click the Run Button")
 		public void click_the_run_button() {
 			
-			App_Hooks.getInstance().getDriver().findElement(run).click();
+			DS_IntroductionPageObjects.getInstance().runBtn();
 		    
 		}
 
 		@Then("The user should able to see an error message in alert window")
 		public void the_user_should_able_to_see_an_error_message_in_alert_window() throws InterruptedException {
 			
-			DS_IntroductionPageObjects.getInstance().runBtn();
+			//DS_IntroductionPageObjects.getInstance().runBtn();
 			try {
 				//Thread.sleep(5000);
 												
@@ -158,7 +110,6 @@ public class DS_Introduction {
 				String actualErrorMessage = alert.getText();
 				System.out.println(actualErrorMessage);
 				Assert.assertEquals(actualErrorMessage, "NameError: name 'hello' is not defined on line 1");
-				Thread.sleep(5000);
 				alert.accept();
 			}catch(UnhandledAlertException ex) {
 				ex.printStackTrace();
@@ -168,8 +119,13 @@ public class DS_Introduction {
 
 		@When("user clicks get started on DS_introduction")
 		public void user_clicks_get_started_on_ds_introduction() {
-		    
-			 App_Hooks.getInstance().getDriver().findElement(Getstarted_btn).click();
+		    try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			 DS_IntroductionPageObjects.getInstance().clickgetstarted();
 		}
 
 
@@ -187,7 +143,7 @@ public class DS_Introduction {
 		@When("Click the  python page run Button")
 		public void click_the_python_page_run_button() throws InterruptedException {
 			
-			App_Hooks.getInstance().getDriver().findElement(run).click();
+			DS_IntroductionPageObjects.getInstance().runBtn();
 			//Thread.sleep(10000);
 		}
 
@@ -201,14 +157,19 @@ public class DS_Introduction {
 		@Given("The user is on the Time Complexity Data Structure Home Page")
 		public void the_user_is_on_the_time_complexity_data_structure_home_page() {
 			
-			App_Hooks.getInstance().getDriver().findElement(Getstarted_btn).click();
-			App_Hooks.getInstance().getDriver().findElement(Time_cmp ).click();
+			DS_IntroductionPageObjects.getInstance().clickgetstarted();
+			DS_IntroductionPageObjects.getInstance().clicktimecompilicity();
 		}
 
 		@When("The user clicks Practice Questions link")
 		public void the_user_clicks_practice_questions_link() {
 			
-			App_Hooks.getInstance().getDriver().findElement(practice_qa ).click();
+			try {
+				DS_IntroductionPageObjects.getInstance().practiceQuestions();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 
 		@When("the user will land on the practice question page")
@@ -219,10 +180,13 @@ public class DS_Introduction {
 		@Then("The user doesn't find any practice problems and the page is blank")
 		public void the_user_doesn_t_find_any_practice_problems_and_the_page_is_blank() {
 			 
-		    App_Hooks.getInstance().getDriver().findElement(signoutbtn).click();
+		    
 		}
 
-
+		@Then ("the user clicks the signout button in DS introduction page")
+		public void the_user_clicks_the_signout_button_in_DS_introduction_page() {
+			DS_IntroductionPageObjects.getInstance().signOut();
+		}
 		
 
 		

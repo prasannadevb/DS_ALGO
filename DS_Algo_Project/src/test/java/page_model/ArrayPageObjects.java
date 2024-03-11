@@ -40,7 +40,7 @@ private static ArrayPageObjects arrayPageObjects;
 	By max_consecutive_Ones = By.xpath("//a[contains(text(),'Max Consecutive Ones')]");
 	By find_Numbers         = By.xpath("//a[contains(text(),'Find Numbers with Even Number of Digits')]");
 	By squares_sortedArray  = By.xpath("//a[contains(text(),'Squares of  a Sorted Array')]");
-	
+	By signoutbtn           = By.xpath("//a[text()='Sign out']");
 	
 	public void clickArraysinPythonBtn()  {
 		
@@ -108,7 +108,10 @@ private static ArrayPageObjects arrayPageObjects;
 		App_Hooks.getInstance().getDriver().findElement(submitBtn).click();
 	}
   
-   
+   public void clickSignoutBtn() {
+	   
+	 App_Hooks.getInstance().getDriver().findElement(signoutbtn).click();
+   }
    
 }
 

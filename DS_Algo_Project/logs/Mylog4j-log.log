@@ -2883,3 +2883,431 @@
 [INFO ]2024-03-1112:08:04.390[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
 [INFO ]2024-03-1112:08:04.636[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
 [INFO ]2024-03-1112:08:05.317[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:20.502[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:25.645[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:25.922[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:27.386[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:27.759[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:27.893[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:28.116[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:28.593[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:28.599[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:28.646[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:28.693[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:31.259[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:32.101[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:34.209[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:36.159[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:36.447[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:36.996[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:37.273[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:37.575[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:37.739[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:38.458[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:38.975[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:40.640[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:41.968[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:43.492[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:43.992[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:44.343[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:45.068[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:45.425[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:46.578[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:47.480[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:48.214[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:48.375[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:50.850[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:51.349[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:52.497[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:52.739[PoolService-7]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1114:31:53.014[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:53.109[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:54.340[PoolService-3]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1114:31:54.810[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:55.094[PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1114:31:55.105[PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1114:31:55.486[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:55.527[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:55.845[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:56.080[PoolService-0]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1114:31:56.529[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:57.553[PoolService-1]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1114:31:57.882[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:31:58.321[PoolService-7]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1114:31:59.381[PoolService-6]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1114:32:00.134[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:00.488[PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1114:32:00.677[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:01.053[PoolService-3]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1114:32:01.298[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:01.377[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:02.643[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:02.947[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:03.941[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:04.296[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:04.818[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:06.154[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:06.786[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:07.610[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:07.882[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:32:11.126[PoolService-4]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-1114:36:54.219[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:36:54.219[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:01.306[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:01.518[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:02.011[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:02.028[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:02.112[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:02.177[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:02.267[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1114:37:02.337[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.753[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:01.752[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:10.460[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:10.548[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:10.725[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:10.803[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:10.987[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:11.084[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:11.088[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:36:11.109[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:36.299[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:43.722[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:43.916[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:44.380[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:44.432[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:44.537[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:44.569[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:44.729[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:44.774[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:44.842[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:50.504[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:51.040[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:51.811[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:51.922[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:53.752[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:54.120[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:54.395[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:54.454[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:56.108[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:56.182[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:37:57.159[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:00.108[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:00.255[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:01.529[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:02.835[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:03.563[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:03.780[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:04.717[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:05.755[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:06.410[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:06.703[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:07.548[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:08.134[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:09.069[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:10.498[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:13.377[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:13.985[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:14.458[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:14.911[PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:38:15.526[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:16.033[PoolService-6]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:38:16.416[PoolService-1]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:38:16.467[PoolService-0]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:38:16.709[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:16.870[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:17.246[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:17.349[PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:38:18.221[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:18.475[PoolService-3]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:38:19.044[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:20.012[PoolService-8]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1115:38:21.535[PoolService-2]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:38:21.902[PoolService-7]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1115:38:22.192[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:22.391[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:22.548[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:23.156[PoolService-5]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1115:38:23.978[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:25.561[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:26.208[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:26.228[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:26.506[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:27.246[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:28.207[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:28.746[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:29.504[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:30.599[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:38:33.810[PoolService-8]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-1115:48:57.898[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:48:57.898[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:05.873[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.104[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.124[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.700[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.762[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.805[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.822[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.888[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:06.953[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:13.339[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:13.465[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:13.908[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:14.678[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:16.014[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:17.082[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:17.384[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:17.820[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:18.447[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:18.959[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:21.442[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:22.064[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:23.550[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:24.254[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:26.301[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:26.615[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:26.798[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:28.492[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:28.523[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:29.123[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:30.304[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:31.003[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:31.812[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:33.897[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:35.885[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:35.998[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:36.330[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:36.777[PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:36.777[PoolService-6]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:37.421[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:37.434[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:37.679[PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:38.056[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:39.826[PoolService-8]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:40.586[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:41.317[PoolService-0]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:41.479[PoolService-2]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:42.348[PoolService-3]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:42.691[PoolService-1]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1115:49:42.748[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:42.940[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:42.943[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:43.860[PoolService-6]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1115:49:43.897[PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1115:49:44.091[PoolService-9]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1115:49:44.235[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:44.643[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:45.574[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:46.467[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:46.844[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:47.762[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:52.907[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:53.167[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:53.243[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:53.376[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:53.421[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:53.495[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:53.699[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1115:49:58.220[PoolService-2]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-1116:23:04.999[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:13.921[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:17.520[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:20.800[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:23.993[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:27.478[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:30.910[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:34.305[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:37.769[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:41.052[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:44.841[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:48.322[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:51.951[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:23:55.804[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:00.591[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:05.285[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:10.044[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:14.922[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:19.886[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:23.949[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:27.822[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:31.640[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:37.463[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:41.295[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:45.085[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:48.992[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:52.945[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:24:57.146[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:01.262[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:04.993[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:08.891[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:12.465[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:15.517[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:19.132[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:23.239[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:27.422[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:31.240[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:34.868[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:25:35.141[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:38.996[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:25:39.306[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:42.836[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:25:43.119[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:51.128[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:25:51.438[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:54.841[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:25:55.127[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:25:58.786[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:25:59.098[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:02.825[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:26:03.141[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:06.823[main]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:26:07.126[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:11.169[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:14.115[main]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1116:26:15.259[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:18.284[main]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1116:26:19.432[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:22.486[main]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1116:26:23.293[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:27.378[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:31.496[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:35.643[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:40.393[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:44.938[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:48.910[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:51.954[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:55.064[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:26:58.228[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:01.051[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:03.980[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:06.856[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:09.767[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:12.534[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:15.444[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:17.944[main]utilities.Logger_Load1)-User is on regitration page
+[INFO ]2024-03-1116:27:18.259[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:27:21.530[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:34:54.719[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:35:05.511[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:48:25.118[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:48:30.556[main]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:49:34.281[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:49:34.281[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:17.064[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:28.763[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:29.116[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:29.769[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:30.853[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:30.893[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:31.123[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:31.277[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:31.450[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:32.809[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:33.077[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:36.769[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:37.549[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:39.867[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:41.717[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:42.033[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:42.919[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:45.015[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:47.048[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:47.620[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:48.268[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:48.273[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:48.293[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:50.486[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:51.839[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:52.305[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:52.375[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:54.134[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:56.990[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:57.638[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:57.732[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:57.960[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:50:59.497[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:00.560[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:01.321[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:01.750[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:02.149[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:03.388[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:05.951[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:06.422[PoolService-4]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:51:06.921[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:07.090[PoolService-6]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:51:07.445[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:07.849[PoolService-8]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:51:08.184[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:09.478[PoolService-2]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:51:09.726[PoolService-7]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1116:51:09.952[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:10.174[PoolService-5]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:51:10.726[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:10.892[PoolService-9]utilities.Logger_Load1)-able to see message in console box
+[INFO ]2024-03-1116:51:11.219[PoolService-0]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1116:51:11.311[PoolService-9]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:11.797[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:12.773[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:12.892[PoolService-3]utilities.Logger_Load1)-user is on stack page
+[INFO ]2024-03-1116:51:13.225[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:15.481[PoolService-3]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:16.972[PoolService-4]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:17.081[PoolService-6]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:18.118[PoolService-8]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:19.291[PoolService-1]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:19.715[PoolService-2]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:20.057[PoolService-7]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:21.066[PoolService-5]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:21.100[PoolService-0]app_hooks.Driver_Manager1)-Launching chrome
+[INFO ]2024-03-1116:51:25.353[PoolService-7]utilities.Logger_Load1)-User is on regitration page

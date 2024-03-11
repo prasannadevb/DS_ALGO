@@ -1,12 +1,12 @@
 @array
 Feature: Testing the Array Page
 	
-@scenario1
+
   Scenario: Verify user is able to navigate into DS_Algo Array Page
     Given the user is on the Home Page
     When  the user clicks the get started button below the Array
     Then  the user should be redirected to the page whose title is "Array" and the url is "https://dsportalapp.herokuapp.com/array/"
-    @scenario2
+   
   Scenario: Verify Arrays in Python link redirects to Arrays in Python page.
     Given the user is on the Array page
     When  the user clicks Arrays in Python link
@@ -118,3 +118,4 @@ Feature: Testing the Array Page
 	Then  the user should be directed to search the array question page
 	When  the user gives a valid code
 	Then the user should see the output in console
+	Then the user clicks the signout button in the arraypage

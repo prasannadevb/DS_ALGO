@@ -43,6 +43,7 @@ Feature: Data Structure Home page - DS_Introduction
    When The user clicks Practice Questions link
    When the user will land on the practice question page
    Then The user doesn't find any practice problems and the page is blank
+   Then the user clicks the signout button in DS introduction page
    
    
    

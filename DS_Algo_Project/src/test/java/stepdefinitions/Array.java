@@ -27,7 +27,6 @@ public class Array {
 
 	@Given("the user is on the Home Page")
 	public void the_user_is_on_the_home_page() {
-		System.out.println("in the home page");
 		App_Hooks.getInstance().getDriver().get(Constants.HOMEPAGE);
 
 	}
@@ -329,5 +328,10 @@ public class Array {
 	public void the_user_should_see_the_output_in_console()  {
 		String output =	ArrayPageObjects.getInstance().getOutput();
 		Assert.assertNotNull(output);
+	}
+	@Then ("the user clicks the signout button in the arraypage")
+	public void the_user_clicks_the_signout_button_in_the_arraypage() {
+		App_Hooks.getInstance().getDriver().get(Constants.HOMEPAGE);
+		ArrayPageObjects.getInstance().clickSignoutBtn();
 	}
 }
