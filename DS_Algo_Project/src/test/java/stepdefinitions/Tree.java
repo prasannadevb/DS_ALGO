@@ -98,6 +98,7 @@ public class Tree {
 
 	@When("user writes invalid python code with {string} and rownumber {int} in tree page editor")
 	public void user_writes_invalid_python_code_with_and_rownumber_in_tree_page_editor(String sheetName, Integer rowNumber) throws InvalidFormatException, IOException, InterruptedException {
+		Thread.sleep(1000);
 		ExcelReader reader = new ExcelReader();
 		String excelPath = System.getProperty("user.dir") + "\\src\\test\\java\\utilities\\pythonexceldata.xlsx";
 		System.out.println(excelPath);
