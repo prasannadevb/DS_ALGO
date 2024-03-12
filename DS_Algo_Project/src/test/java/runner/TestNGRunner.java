@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		
 		features = {"src/test/resources/features"},
-			tags = "@array",
+			tags = "@DS_Introductionpage",
 		plugin = {"pretty", "html:target/result.html",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		glue= {"stepdefinitions","page_model","app_hooks"},
@@ -18,7 +18,7 @@ public class TestNGRunner extends AbstractTestNGCucumberTests{
 
 	
 	@Override
-	@DataProvider(parallel = true) public Object[][] scenarios() {
+	@DataProvider(parallel = false) public Object[][] scenarios() {
 
 		return super.scenarios(); }
 

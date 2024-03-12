@@ -119,13 +119,8 @@ public class DS_Introduction {
 
 		@When("user clicks get started on DS_introduction")
 		public void user_clicks_get_started_on_ds_introduction() {
-		    try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-			 DS_IntroductionPageObjects.getInstance().clickgetstarted();
+		    
+			 App_Hooks.getInstance().getDriver().get(Constants.DSPAGE);
 		}
 
 

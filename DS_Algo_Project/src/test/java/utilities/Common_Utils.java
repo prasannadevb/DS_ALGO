@@ -69,6 +69,7 @@ public class Common_Utils {
 				Constants.TREEPAGE =properties.getProperty("TREEPAGE_URL");
 				Constants.PYTHONV= properties.getProperty("TEXT_EDITOR");
 				Constants.PYTHONI= properties.getProperty("TEXT_EDITORI");
+				Constants.DSPAGE = properties.getProperty("DS_HOMEPAGE");
 
 
 			}
