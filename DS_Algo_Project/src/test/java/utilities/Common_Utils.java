@@ -24,7 +24,8 @@ import page_model.ArrayPageObjects;
 public class Common_Utils {
 
 	private static Common_Utils commonUtils;
-
+  
+	//private constructor-cannot create an object in another class
 	private Common_Utils() {};
 
 	public static Common_Utils getInstance() {

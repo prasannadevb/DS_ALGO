@@ -244,8 +244,8 @@ public class Array {
 		
 	}
 
-	@Then("the user should see {string} message")
-	public void the_user_should_see_message(String expected) {
+	@Then("the user sees in search the array {string}")
+	public void the_user_sees_in_search_array (String expected){
 		try {
 			Thread.sleep(1000);
 			String actual = null;
@@ -256,8 +256,31 @@ public class Array {
 			e.printStackTrace();
 		}
 		
-		
-
+	}
+	@Then ("user sees in max consective ones {string}")
+	public void user_sees_in_max_consecutive_ones (String expected) {
+		try {
+			Thread.sleep(1000);
+			String actual = null;
+			actual = ArrayPageObjects.getInstance().getOutput();
+			Assert.assertEquals(actual,expected);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	@Then ("the user should see in find numbers {string}")
+	public void the_user_should_see_in_find_numbers (String expected) {
+		try {
+			Thread.sleep(1000);
+			String actual = null;
+			actual = ArrayPageObjects.getInstance().getOutput();
+			Assert.assertEquals(actual,expected);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@When("the user clicks on the run button without entering any code")
@@ -279,17 +302,18 @@ public class Array {
 		ArrayPageObjects.getInstance().clickSubmitBtn();
 	}
 
-	@Then("the user should see {string} message in sorted array")
-	public void user_should_see_message(String expected)  {
+	@Then("the user should see {string} in sorted array")
+	public void the_user_should_see(String expected)  {
 		try {
 			Thread.sleep(1000);
+			String actual = null;
+			actual = ArrayPageObjects.getInstance().getOutput();
+			Assert.assertEquals(actual,expected);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		String actual = null;
-		actual = ArrayPageObjects.getInstance().getOutput();
-		Assert.assertEquals(actual,expected);
+		
 	}
 	@Then("the user should be redirected to the homepage")
 	public void the_user_should_be_redirected_to_the_homepage() {

@@ -81,25 +81,25 @@ Feature: Testing the Array Page
 	When the user clicks on the run button without entering any code
 	Then the user should see an alert contains "bad input on line 2"
 	When  the user clicks on the submit button without entering any code
-	Then  the user should see "Error occurred during submission" message
+	Then  the user sees in search the array "Error occurred during submission" 
 	
- @question
+ 
  Scenario: verify submitting the practice question with no code in max consecutive ones
 	Given the user is on the practice question page
 	When  the user clicks max consecutive ones
 	When the user clicks on the run button without entering any code
 	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code
-	Then the user should see "Error occurred during submission" message
+	Then user sees in max consective ones "Error occurred during submission" 
 	
-	@question
+
  Scenario: verify running the practice question with no code in find numbers with even number of digits
 	Given the user is on the practice question page
 	When  the user clicks find numbers with even number of digits
 	When the user clicks on the run button without entering any code
 	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code
-	Then the user should see "Error occurred during submission" message
+	Then the user should see in find numbers "Error occurred during submission" 
 	
 	@question
 	Scenario: verify submitting the practice question with no code in squares of a sorted array
@@ -108,7 +108,7 @@ Feature: Testing the Array Page
 	When the user clicks on the run button without entering any code
 	Then the user should see an alert contains "bad input on line 2"
 	When the user clicks on the submit button without entering any code in squares of a sorted array
-	Then the user should see "No tests were collected" message in sorted array
+	Then the user should see "No tests were collected" in sorted array
 	Then the user should be redirected to the homepage
 	
 	@question1
