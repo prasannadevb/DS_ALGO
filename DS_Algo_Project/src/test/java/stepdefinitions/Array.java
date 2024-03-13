@@ -123,7 +123,14 @@ public class Array {
 
 	@Given("the user is on the python editor page")
 	public void the_user_is_on_the_python_editor_page() {
-		App_Hooks.getInstance().getDriver().get(Constants.EDITORBOX);
+		try {
+			Thread.sleep(1000);
+			App_Hooks.getInstance().getDriver().get(Constants.EDITORBOX);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 
 	@When("the user clicks the run button without entering any code in the editor")
@@ -133,7 +140,14 @@ public class Array {
 
 	@When("the user writes an invalid code in Editor like {string}")
 	public void the_user_writes_an_invalid_code_in_editor_like(String invalidCode) {
-		ArrayPageObjects.getInstance().enterCode(invalidCode);
+		try {
+			Thread.sleep(1000);
+			ArrayPageObjects.getInstance().enterCode(invalidCode);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 
 	}
 
@@ -156,9 +170,10 @@ public class Array {
 
 	@When("the user enters a valid code in Editor like {string}")
 	public void the_user_enters_a_valid_code_in_editor_like(String validCode) {
-		ArrayPageObjects.getInstance().enterValidCode(validCode);
 		
-	}
+			ArrayPageObjects.getInstance().enterValidCode(validCode);
+		
+		}
 
 	@Then("the user should able to see output in the console")
 	public void the_user_should_able_to_see_output_in_the_console()  {
@@ -329,6 +344,7 @@ public class Array {
 		if (App_Hooks.getInstance().getDriver() instanceof JavascriptExecutor) {
 		    js = (JavascriptExecutor) App_Hooks.getInstance().getDriver();
 		}
+		//js.executeScript("document.getElementByClassName('CodeMirror-line').setAttribute('value',"+Common_Utils.questionsList.get(1)+")");
 		js.executeScript("return document.getElementsByClassName('CodeMirror-line')[0].remove();");
 		ArrayPageObjects.getInstance().enterValidCode(Common_Utils.questionsList.get(1));	
 			

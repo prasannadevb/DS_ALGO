@@ -1,6 +1,7 @@
 package page_model;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 
 import app_hooks.App_Hooks;
 import constants.Constants;
@@ -30,7 +31,8 @@ public class GraphPageObjects {
 	By Getstarted_btn = By.xpath("//a[@href='graph']");
 	By Graphlink = By.xpath("//a[@href = 'graph']");
 	By try_here = By.xpath("//a[@class='btn btn-info']");
-	By textbox = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	//By textbox = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	By textbox 					  = By.xpath("//textarea[@autocorrect='off']");
 	By run = By.xpath("//button[text() = 'Run']");
 	By output 			= By.xpath("//pre[@id='output']");
 	By graphrepresentation = By.xpath("//a[text() = 'Graph Representations']");
@@ -62,7 +64,10 @@ public class GraphPageObjects {
 		App_Hooks.getInstance().getDriver().findElement(try_here).click();
 	}
 	public void validCode(String code) throws InterruptedException {
-		App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(code);
+		new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(textbox), code)
+	       .perform();
+		//App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(code);
 	}
 	public void runBtn() throws InterruptedException {
 		App_Hooks.getInstance().getDriver().findElement(run).click();
@@ -75,7 +80,9 @@ public class GraphPageObjects {
 		App_Hooks.getInstance().getDriver().findElement(graphrepresentation).click();
 	}
 	public void invalidCode(String invalidCode) throws InterruptedException {
-
+		new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(textbox), invalidCode)
+	       .perform();
 		App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(invalidCode);
 	}
 	public void practiceQuestions() throws InterruptedException {

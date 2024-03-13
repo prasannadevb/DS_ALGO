@@ -159,6 +159,10 @@ public class Register {
 	    System.out.println("User redirected to dsALgoHome�page");
 	}
 
+	@When("the user enters the username as {string}")
+	public void the_user_enters_the_username_as_(String username) {
+	    RegisterPageObjects.getInstance().enterUsername(username);
+	}
 
 
 }

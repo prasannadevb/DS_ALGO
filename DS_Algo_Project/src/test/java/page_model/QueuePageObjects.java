@@ -1,6 +1,7 @@
 package page_model;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 
 import app_hooks.App_Hooks;
 import constants.Constants;
@@ -28,7 +29,8 @@ public class QueuePageObjects {
 	By getstarted_btn = By.xpath("//a[@href='queue']"); 
 	By click_implementation = By.xpath("//a[text() = 'Implementation of Queue in Python']");
 	By tryhere = By.xpath("//a[@class='btn btn-info']");
-	By text_box = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	//By text_box = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	By text_box 					 = By.xpath("//textarea[@autocorrect='off']");
 	By Run = By.xpath("//button[text() = 'Run']");
 	By output 			= By.xpath("//pre[@id='output']");
 	By implementationcollection = By.xpath("//a[text() = 'Implementation using collections.deque']");
@@ -63,7 +65,10 @@ public class QueuePageObjects {
 		App_Hooks.getInstance().getDriver().findElement(tryhere).click();
 	}
 	public void validCode(String code) throws InterruptedException {
-		App_Hooks.getInstance().getDriver().findElement(text_box).sendKeys(code);
+		new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(text_box), code)
+	       .perform();
+		//App_Hooks.getInstance().getDriver().findElement(text_box).sendKeys(code);
 	}
 	public void runBtn() throws InterruptedException {
 		App_Hooks.getInstance().getDriver().findElement(Run).click();
@@ -82,7 +87,9 @@ public class QueuePageObjects {
 		App_Hooks.getInstance().getDriver().findElement(Queue_operation).click();
 	}
 	public void invalidCode(String invalidCode) throws InterruptedException {
-
+		new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(text_box), invalidCode)
+	       .perform();
 		App_Hooks.getInstance().getDriver().findElement(text_box).sendKeys(invalidCode);
 	}
 	public void practiceQuestions() throws InterruptedException {

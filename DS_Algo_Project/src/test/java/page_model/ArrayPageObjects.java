@@ -3,6 +3,7 @@ package page_model;
 import java.util.ArrayList;
 import java.util.List;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 
 import app_hooks.App_Hooks;
 
@@ -28,7 +29,8 @@ private static ArrayPageObjects arrayPageObjects;
    
 	By arraysinpythonBtn    = By.xpath("//a[@href='arrays-in-python']");
 	By tryhereBtn           = By.partialLinkText("Try here");
-	By editorbox            = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	//By editorbox            = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	By editorbox 					  = By.xpath("//textarea[@autocorrect='off']");
 	By runBtn               = By.xpath("//button[@type='button']");
 	By console              = By.xpath("//pre[@id='output']");
 	By arraysusinglist      = By.xpath("//a[contains(text(),'Arrays Using List')]");
@@ -52,9 +54,12 @@ private static ArrayPageObjects arrayPageObjects;
 		App_Hooks.getInstance().getDriver().findElement(tryhereBtn).click();
 	}
    public void enterCode(String code)  {
-		System.out.println("inside invalid error code");
-		App_Hooks.getInstance().getDriver().findElement(editorbox).sendKeys(code);
-		System.out.println("after sleep");
+		
+		new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(editorbox), code)
+	       .perform();
+		//App_Hooks.getInstance().getDriver().findElement(editorbox).sendKeys(code);
+		
 	}
    public void clickRunBtn()  {
 		
@@ -62,8 +67,10 @@ private static ArrayPageObjects arrayPageObjects;
 		
 	}
    public void enterValidCode(String validCode) {
-	   
-	    App_Hooks.getInstance().getDriver().findElement(editorbox).sendKeys(validCode);
+	   new Actions(App_Hooks.getInstance().getDriver())
+       .sendKeys(App_Hooks.getInstance().getDriver().findElement(editorbox), validCode)
+       .perform();
+	    //App_Hooks.getInstance().getDriver().findElement(editorbox).sendKeys(validCode);
 		
 	}
    

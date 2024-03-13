@@ -1,6 +1,7 @@
 package page_model;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.interactions.Actions;
 
 import app_hooks.App_Hooks;
 import constants.Constants;
@@ -31,7 +32,8 @@ public class StackPageObjects {
 	By applicationsLink = By.xpath("//a[@href='stack-applications']");
 	By practiceLink 	= By.xpath("//a[text()='Practice Questions']");
 	By tryherelink 		= By.xpath("//a[@href='/tryEditor']");
-	By textbox 			= By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	//By textbox 			= By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	By textbox 					  = By.xpath("//textarea[@autocorrect='off']");
 	By runbtn 			= By.xpath("//button[text()='Run']");
 	By output 			= By.xpath("//pre[@id='output']");
 	By signoutbtn 		= By.xpath("//a[text()='Sign out']");
@@ -77,7 +79,10 @@ public class StackPageObjects {
 		App_Hooks.getInstance().getDriver().findElement(practiceLink).click();
 	}
 	public void validCode(String code) throws InterruptedException {
-		App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(code);
+		new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(textbox), code)
+	       .perform();
+		//App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(code);
 	}
 	public void runBtn() throws InterruptedException {
 		App_Hooks.getInstance().getDriver().findElement(runbtn).click();
@@ -87,8 +92,10 @@ public class StackPageObjects {
 		return App_Hooks.getInstance().getDriver().findElement(output).getText();
 	}
 	public void invalidCode(String invalidCode) throws InterruptedException {
-
-		App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(invalidCode);
+		new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(textbox), invalidCode)
+	       .perform();
+		//App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(invalidCode);
 	}
 	public void signOut() {
 		App_Hooks.getInstance().getDriver().findElement(signoutbtn).click();

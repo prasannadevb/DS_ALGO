@@ -1,6 +1,8 @@
 package page_model;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.interactions.Actions;
 
 import app_hooks.App_Hooks;
 import constants.Constants;
@@ -25,7 +27,9 @@ public class Linked_listPageObjects {
 	By passwordTextbox =By.xpath("//input[@name='password']");
 	By loginbtn = By.xpath("//input[@value='Login']");
 	By IntroductionLink = By.xpath("//a[text()='Introduction']");
-	By EditorTxt =By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	
+	//By EditorTxt =By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	By EditorTxt 					  = By.xpath("//textarea[@autocorrect='off']");
 	By TryHere = By.xpath("//a[@class='btn btn-info']");
 
 	By Run = By.xpath("//button[text()='Run']");
@@ -70,12 +74,19 @@ public class Linked_listPageObjects {
 		App_Hooks.getInstance().getDriver().findElement(TryHere).click();
 	}
 		public void TextEditor_Intr() {
-			
-			App_Hooks.getInstance().getDriver().findElement(EditorTxt).sendKeys(Constants.PYTHONV);
+			JavascriptExecutor executor= (JavascriptExecutor) App_Hooks.getInstance().getDriver();
+			 executor.executeScript("arguments[0].scrollIntoView(true);",App_Hooks.getInstance().getDriver().findElement(EditorTxt) );
+			 new Actions(App_Hooks.getInstance().getDriver())
+		       .sendKeys(App_Hooks.getInstance().getDriver().findElement(EditorTxt), Constants.PYTHONV)
+		       .perform();
+			// App_Hooks.getInstance().getDriver().findElement(EditorTxt).sendKeys(Constants.PYTHONV);
 			
 		}
 		public void TextEditor_Intr1() {
-			App_Hooks.getInstance().getDriver().findElement(EditorTxt).sendKeys(Constants.PYTHONI);
+			new Actions(App_Hooks.getInstance().getDriver())
+		       .sendKeys(App_Hooks.getInstance().getDriver().findElement(EditorTxt), Constants.PYTHONI)
+		       .perform();
+			//App_Hooks.getInstance().getDriver().findElement(EditorTxt).sendKeys(Constants.PYTHONI);
 			
 		}
 		public void Run_btn() {

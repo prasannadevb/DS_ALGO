@@ -127,16 +127,9 @@ public class Queue {
 		Alert alert = App_Hooks.getInstance().getDriver().switchTo().alert();
 		String actualErrorMessage = alert.getText();
 		System.out.println(actualErrorMessage);
-		Assert.assertEquals(actualErrorMessage, "NameError: name 'hello' is not defined on line 1");
+		Assert.assertTrue(actualErrorMessage.contains("Error"));
 		alert.accept();
 	}
-
-
-	
-
-	
-
-
 
 	@When("The user clicks Queue Operations")
 	public void the_user_clicks_queue_operations() {

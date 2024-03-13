@@ -104,7 +104,7 @@ public class Login {
 	}
 	
 	
-	@Then("The user should be redirected to Data Structure HomePage")
+	@Then("The user should land in Data Structure Home Page")
 	public void the_user_should_be_redirected_to_data_structure_home_page1() {
 		String currentUrl = App_Hooks.getInstance().getDriver().getCurrentUrl();
 		String expectedUrl ="https://dsportalapp.herokuapp.com/home";
@@ -113,4 +113,3 @@ public class Login {
 	}
 	
 	}
-

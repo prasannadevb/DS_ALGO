@@ -1,6 +1,14 @@
 package page_model;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import app_hooks.App_Hooks;
 import constants.Constants;
@@ -43,7 +51,9 @@ public class TreePageObjects {
 	By implementationofBstlink    = By.xpath("//a[@href='implementation-of-bst']");
 	By practicequeslink           = By.xpath("//a[@href='/tree/practice']");
 	By tryherelink                = By.xpath("//a[@href='/tryEditor']");
-	By textbox 					  = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	//By textbox 					  = By.xpath("//form[@id='answer_form']/div/div/div/textarea");
+	By textbox 					  = By.xpath("//textarea[@autocorrect='off']");
+	
 	By runbtn                     = By.xpath("//button[text()='Run']");
 	By output                     = By.xpath("//pre[@id='output']");
 	By signoutbtn                 = By.xpath("//a[text()='Sign out']");
@@ -116,14 +126,23 @@ public  void enterUsername () {
 		App_Hooks.getInstance().getDriver().findElement(runbtn).click();
 	}
 	public void validCode(String code) throws InterruptedException {
-		App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(code);
+		JavascriptExecutor executor= (JavascriptExecutor) App_Hooks.getInstance().getDriver();
+		 executor.executeScript("arguments[0].scrollIntoView(true);",App_Hooks.getInstance().getDriver().findElement(textbox) );
+		 new Actions(App_Hooks.getInstance().getDriver())
+	       .sendKeys(App_Hooks.getInstance().getDriver().findElement(textbox), code)
+	       .perform();
+		// App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(code);
 	}
 	public String getOutput() {
 		return App_Hooks.getInstance().getDriver().findElement(output).getText();
 	}
 	public void invalidCode(String invalidCode) throws InterruptedException {
-
-		App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(invalidCode);
+		JavascriptExecutor executor= (JavascriptExecutor) App_Hooks.getInstance().getDriver();
+		 executor.executeScript("arguments[0].scrollIntoView(true);",App_Hooks.getInstance().getDriver().findElement(textbox) );
+		 new Actions(App_Hooks.getInstance().getDriver())
+         .sendKeys(App_Hooks.getInstance().getDriver().findElement(textbox), invalidCode)
+         .perform();
+		// App_Hooks.getInstance().getDriver().findElement(textbox).sendKeys(invalidCode);
 	}
 	public void signOut() {
 		App_Hooks.getInstance().getDriver().findElement(signoutbtn).click();
