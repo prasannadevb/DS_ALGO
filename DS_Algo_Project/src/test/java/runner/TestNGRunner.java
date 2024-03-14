@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		
 		features = {"src/test/resources/features"},
 			//tags = "@array",
-		plugin = {"pretty", "html:target/result.html",
+		plugin = {"pretty", "html:target/result.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		glue= {"stepdefinitions","page_model","app_hooks"},
 		dryRun = false
